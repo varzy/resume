@@ -2,7 +2,7 @@
 
 Tel: +86 155 6525 2838  
 E-mail: i@zyis.me  
-Website: hhtp://ziy.im/  
+Website: http://ziy.im/  
 Github: https://github.com/zxyy63630  
 
 ## 个人信息
