@@ -1,6 +1,6 @@
 # zy's Resume
 
-简历展示页面：http://ziy.im/  
+Website：http://ziy.im/  
 
 E-mail：i@zyis.me  
 
