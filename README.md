@@ -1,8 +1,8 @@
 # zy's Resume
 
-E-mail: i@zyis.me  
 Tel: +86 155 6525 2838  
-Website: www.ziy.im   
+E-mail: i@zyis.me  
+Website: hhtp://ziy.im/  
 Github: https://github.com/zxyy63630  
 
 ## 个人信息
