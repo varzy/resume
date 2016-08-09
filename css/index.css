@@ -1,5 +1,6 @@
 .container {
   padding-top: 10px;
+  width: 1000px;
 }
 .container .show {
   height: 160px;
