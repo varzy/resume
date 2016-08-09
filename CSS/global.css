@@ -1,8 +1,31 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid red;*/
+}
+body {
+  background-color:rgb(224, 224, 224);   
+}
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
-html{
-  
-}
 
+.clear {
+  clear: both;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(255,255,255);
+}
+a:visited {
+  text-decoration: none;
+  color: #444;
+}
+a:hover {
+  text-decoration: underline;
+  color: #900;
+}
+ul, ol, li {
+    list-style: none;
+}
