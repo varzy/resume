@@ -42,3 +42,8 @@ ol,
 li {
   list-style: none;
 }
+
+.blank10 {
+  clear: both;
+  padding: 10px;
+}
