@@ -1,6 +1,14 @@
-.container {
-  padding-top: 10px;
-  width: 1000px;
+@media(min-width:1200px) {
+  .container {
+    padding-top: 10px;
+    width: 1000px;
+  }
+}
+
+@media(max-width:767px) {
+  .container {
+    width: 100%;
+  }
 }
 
 .container .show {
@@ -48,4 +56,3 @@
 .explain .title {
   text-align: right;
 }
-
