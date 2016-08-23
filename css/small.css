@@ -4,7 +4,7 @@
 @media screen and (max-width:767px) {
   /* container */
   .container {
-    width: 99%;
+    width: 98%;
     margin: 0 auto;
   }
   /* page-title */
@@ -12,13 +12,10 @@
     margin-top: 5px;
   }
   .page-title h1 {
+    font-size: 3.5rem;
     text-align: center;
-    font-size: 3.75rem;
-    padding-top: 1.5rem;
   }
-  .page-title ul {
-    padding-top: 1.5rem;
-    padding-left: 3rem;
-    padding-bottom: 1.5rem;
+  .page-title img {
+    display: none;
   }
 }
