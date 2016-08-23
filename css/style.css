@@ -1,6 +1,24 @@
-/* global & reset */
+/* reset & global */
 
 @charset "utf-8";
+
+/* reset */
+
+html {
+  font-size: 62.5%;
+  /* 10 ÷ 16 × 100% = 62.5% */
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+
+/* global */
+
 body {
   background-color: #F4F4F4;
+  font-size: 1.4rem;
 }

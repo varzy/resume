@@ -1,0 +1,9 @@
+/* media for small screen. */
+
+@charset "utf-8";
+@media screen and (max-width:767px) {
+  /* container */
+  .container{
+    width: 100%;
+  }
+}
