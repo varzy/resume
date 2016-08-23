@@ -7,4 +7,19 @@
     width: 990px;
     margin: 0 auto;
   }
+  /* page-title */
+  .page-title {
+    margin-top: 10px;
+  }
+  .page-title h1 {
+    font-size: 7.2rem;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    display: inline-block;
+  }
+  .page-title ul {
+    display: inline-block;
+    padding-top: 1.5rem;
+  }
 }

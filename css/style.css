@@ -4,6 +4,11 @@
 
 /* reset */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 62.5%;
   /* 10 ÷ 16 × 100% = 62.5% */
@@ -12,7 +17,31 @@ html {
 h1,
 h2,
 h3 {
+  margin: 0;
+  padding: 0;
   font-weight: normal;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.blank5 {
+  padding-top: 5px;
+}
+
+.blank10 {
+  padding-top: 10px;
 }
 
 
@@ -21,4 +50,30 @@ h3 {
 body {
   background-color: #F4F4F4;
   font-size: 1.4rem;
+}
+
+.container {
+  box-shadow: 5px 5px 3px #888888;
+}
+
+
+/* page-title */
+
+.page-title {
+  color: #fff;
+  background-color: #333;
+}
+
+.page-title ul a:link,
+a:visited {
+  color: #fff;
+}
+
+.page-title ul a:hover {
+  color: #66ccff;
+}
+
+.page-title ul {
+  font-family: "Consolas";
+  font-size: 1.8rem;
 }

@@ -3,7 +3,22 @@
 @charset "utf-8";
 @media screen and (max-width:767px) {
   /* container */
-  .container{
-    width: 100%;
+  .container {
+    width: 99%;
+    margin: 0 auto;
+  }
+  /* page-title */
+  .page-title {
+    margin-top: 5px;
+  }
+  .page-title h1 {
+    text-align: center;
+    font-size: 3.75rem;
+    padding-top: 1.5rem;
+  }
+  .page-title ul {
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 1.5rem;
   }
 }
