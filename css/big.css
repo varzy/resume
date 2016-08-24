@@ -13,12 +13,12 @@
     position: relative;
   }
   .page-title h1 {
-    font-size: 7.2rem;
+    font-size: 6.4rem;
     font-weight: bold;
     vertical-align: middle;
     display: inline-block;
     writing-mode: vertical-lr;
-    padding:1.5rem 3rem;
+    padding: 1.5rem 3rem;
   }
   .page-title ul {
     padding-top: 0.5rem;
@@ -30,7 +30,9 @@
   .page-title .photo {
     width: 16rem;
     position: absolute;
-    top: 1.9rem;
+    top: 1.2rem;
     right: 3rem;
   }
+  /* mainbody */
+  .mainbody {}
 }
