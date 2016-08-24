@@ -63,10 +63,18 @@ body {
   color: #fff;
   background-color: #333;
   padding: 1.5rem 2rem;
+
 }
 
 .page-title h1 {
   padding-bottom: 1.5rem;
+}
+
+.page-title ul {
+  font-family: "Consolas";
+  font-size: 1.8rem;
+  line-height: 2rem;
+
 }
 
 .page-title ul a:link,
@@ -76,10 +84,4 @@ a:visited {
 
 .page-title ul a:hover {
   color: #66ccff;
-}
-
-.page-title ul {
-  font-family: "Consolas";
-  font-size: 1.8rem;
-  line-height: 2rem;
 }

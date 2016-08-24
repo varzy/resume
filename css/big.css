@@ -15,11 +15,23 @@
     font-size: 7.2rem;
     font-weight: bold;
     display: inline-block;
+    vertical-align: middle;
+    /*display: none;*/
   }
   .page-title ul {
     display: inline-block;
+    vertical-align: middle;
+    /*display: none;*/
   }
-  .page-title img {
-    display: none;
+  .page-title .photo {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    width: 20rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
   }
 }
