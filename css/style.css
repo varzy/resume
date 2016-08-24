@@ -36,22 +36,6 @@ a {
   clear: both;
 }
 
-.blank5 {
-  padding-top: 5px;
-}
-
-.blank10 {
-  padding-top: 10px;
-}
-
-.fl {
-  float: left;
-}
-
-.fr {
-  float: right;
-}
-
 
 /* global */
 
@@ -68,6 +52,7 @@ body {
   background-color: #333;
   padding: 1.5rem 2rem;
   box-shadow: 5px 5px 3px #888888;
+  margin-bottom: 12px;
 }
 
 .page-title h1 {
@@ -103,4 +88,3 @@ a:visited {
   box-shadow: 5px 5px 3px #888888;
   background-color: #fff;
 }
-
