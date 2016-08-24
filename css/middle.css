@@ -17,16 +17,13 @@
   }
   .page-title ul {
     padding-left: 2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
   }
   .page-title .photo {
     width: 14rem;
     position: absolute;
     top: 2.4rem;
     right: 3rem;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
   }
 }

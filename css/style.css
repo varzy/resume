@@ -52,10 +52,6 @@ body {
   font-size: 1.4rem;
 }
 
-.container {
-  box-shadow: 5px 5px 3px #888888;
-}
-
 
 /* page-title */
 
@@ -63,7 +59,7 @@ body {
   color: #fff;
   background-color: #333;
   padding: 1.5rem 2rem;
-
+  box-shadow: 5px 5px 3px #888888;
 }
 
 .page-title h1 {
@@ -72,9 +68,6 @@ body {
 
 .page-title ul {
   font-family: "Consolas";
-  font-size: 1.8rem;
-  line-height: 2rem;
-
 }
 
 .page-title ul a:link,
@@ -84,4 +77,21 @@ a:visited {
 
 .page-title ul a:hover {
   color: #66ccff;
+}
+
+.page-title .photo {
+  width: 20rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+/* mainbody */
+
+.mainbody {
+  padding: 5px;
+  box-shadow: 5px 5px 3px #888888;
 }
