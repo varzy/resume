@@ -38,12 +38,11 @@
     /*border: 1px solid #000;*/
     float: left;
     width: 50%;
-    /*padding: 10px;*/
   }
   .mainbody .col-right {
     /*border: 1px solid #000;*/
     float: right;
     width: 50%;
-    /*padding: 10px;*/
+
   }
 }

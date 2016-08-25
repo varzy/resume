@@ -42,6 +42,8 @@ a {
 body {
   background-color: #F4F4F4;
   font-size: 1.4rem;
+  word-break: normal;
+  padding: 10px;
 }
 
 
@@ -87,4 +89,5 @@ a:visited {
 .mainbody {
   box-shadow: 5px 5px 3px #888888;
   background-color: #fff;
+  word-wrap: break-word;
 }
