@@ -35,13 +35,11 @@
   }
   /* mainbody */
   .mainbody .col-left {
-    /*border: 1px solid #000;*/
     float: left;
     width: 48%;
     padding-right: 10px;
   }
   .mainbody .col-right {
-    /*border: 1px solid #000;*/
     float: right;
     width: 48%;
     padding-left: 10px;
