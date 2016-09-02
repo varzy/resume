@@ -134,3 +134,7 @@ h2,
 h3 {
   padding: 5px 0;
 }
+
+.skill li {
+  padding-left: 1rem;
+}
