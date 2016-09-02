@@ -137,4 +137,5 @@ h3 {
 
 .skill li {
   padding-left: 1rem;
+  list-style: disc;
 }
