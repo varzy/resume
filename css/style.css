@@ -135,7 +135,10 @@ h3 {
   padding: 5px 0;
 }
 
+.skill ul {
+  padding-left: 3rem;
+}
+
 .skill li {
-  padding-left: 1rem;
   list-style: disc;
 }
