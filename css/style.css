@@ -53,31 +53,6 @@ body {
 }
 
 
-/* fab */
-
-
-/*.fab {
-  box-shadow: 1px 2px 3px #888888;
-  background-color: rgb(253, 86, 33);
-  position: fixed;
-  right: 48px;
-  bottom: 48px;
-  width: 58px;
-  height: 58px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.fab i {
-  text-align: center;
-  width: 58px;
-  line-height: 58px;
-  color: #fff;
-  font-size: 22px;
-}*/
-
-
 /* page-title */
 
 .page-title {
@@ -158,13 +133,13 @@ h2 {
   list-style: disc;
 }
 
-.person .left-content {
+.mainbody .left-content {
   display: inline-block;
-  width: 80px;
+  width: 100px;
   text-align: right;
 }
 
-.person .right-content {
+.mainbody .right-content {
   display: inline-block;
   text-align: left;
 }
