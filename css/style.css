@@ -158,3 +158,19 @@ h3 {
 .explan {
   padding-left: 1rem;
 }
+
+.person * {
+  border: 1px solid #000;
+}
+
+.person .left-content {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+}
+
+.person .right-content {
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+}
