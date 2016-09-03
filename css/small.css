@@ -26,4 +26,10 @@
   .mainbody {
     padding: 15px;
   }
+  .mainbody .show h1 {
+    font-size: 2rem;
+  }
+    .mainbody .show h2 {
+    font-size: 2rem;
+  }
 }
