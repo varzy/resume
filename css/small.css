@@ -23,4 +23,7 @@
     line-height: 1.8rem;
   }
   /* mainbody */
+  .mainbody {
+    padding: 15px;
+  }
 }
