@@ -105,7 +105,8 @@ a:visited {
 }
 
 .show h1,
-h2 {
+h2,
+h3 {
   padding: 5px 0;
 }
 
