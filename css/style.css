@@ -73,7 +73,8 @@ body {
 }
 
 .page-title ul {
-  font-family: "Open Sans";
+  /* 内容说明字体，待改变 */
+  font-family: "Consolas";
 }
 
 .page-title ul a:link,
