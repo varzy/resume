@@ -1,3 +1,11 @@
 /* media for big screen */
 
 @charset "utf-8";
+
+/* .container */
+
+.container {
+  width: 992px;
+  margin: 0 auto;
+  background-color: red;
+}

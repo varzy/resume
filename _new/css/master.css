@@ -4,6 +4,11 @@
 
 /* preset */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 62.5%;
   font-family: "微软雅黑";
@@ -16,4 +21,12 @@ h3 {
   margin: 0;
   padding: 0;
   font-weight: normal;
+}
+
+
+/* .container */
+
+.container {
+  background-color: #2B2E4A;
+  color: #fff;
 }
