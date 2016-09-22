@@ -9,3 +9,20 @@
   margin: 0 auto;
   margin-top: 10px;
 }
+
+
+/* #title */
+
+.contact {
+  display: inline-block;
+  width: 650px;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+.avater {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  vertical-align: middle;
+}

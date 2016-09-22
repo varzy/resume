@@ -58,33 +58,19 @@ body {
   padding: 20px 0;
 }
 
-.left {
-  display: inline-block;
-  width: 650px;
-  vertical-align: middle;
-  padding-left: 30px;
-}
-
-.left h1 {
+.contact h1 {
   font-size: 4rem;
   padding-bottom: 10px;
 }
 
-.left li {
+.contact li {
   font-size: 1.6rem;
   padding-left: 20px;
   line-height: 2rem;
 }
 
-.right {
-  display: inline-block;
-  text-align: center;
-  width: 300px;
-  vertical-align: middle;
-}
-
-.right img {
-  width: 12rem;
+.avater img {
+  width: 150px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
