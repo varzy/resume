@@ -30,3 +30,20 @@ h3 {
   background-color: #2B2E4A;
   color: #fff;
 }
+
+
+/* #title */
+
+#title {
+  padding: 20px 0;
+  font-size: 1.6rem;
+}
+
+.left {
+  display: inline-block;
+  width: 60%;
+}
+
+.right {
+  display: inline-block;
+}
