@@ -5,7 +5,7 @@
 /* .container */
 
 .container {
-  width: 992px;
+  width: 820px;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -15,9 +15,14 @@
 
 .contact {
   display: inline-block;
-  width: 650px;
+  width: 480px;
   vertical-align: middle;
   padding-left: 30px;
+}
+
+.contact h1 {
+  font-size: 5rem;
+  padding-bottom: 10px;
 }
 
 .avater-1 {
