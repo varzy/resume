@@ -20,7 +20,11 @@
   padding-left: 30px;
 }
 
-.avater {
+.avater-1 {
+  display: none;
+}
+
+.avater-2 {
   display: inline-block;
   text-align: center;
   width: 300px;
