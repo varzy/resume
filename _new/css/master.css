@@ -23,27 +23,72 @@ h3 {
   font-weight: normal;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #E84545;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  background: url(../img/bg.jpg);
+}
+
 
 /* .container */
 
-.container {
-  background-color: #2B2E4A;
-  color: #fff;
-}
+.container {}
 
 
 /* #title */
 
 #title {
+  background-color: #303841;
+  color: #fff;
   padding: 20px 0;
-  font-size: 1.6rem;
 }
 
 .left {
   display: inline-block;
-  width: 60%;
+  width: 650px;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+.left h1 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+
+.left li {
+  font-size: 1.6rem;
+  padding-left: 20px;
+  line-height: 2rem;
 }
 
 .right {
   display: inline-block;
+  text-align: center;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.right img {
+  width: 12rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid #fff;
 }
