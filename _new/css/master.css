@@ -72,6 +72,10 @@ body {
 
 /* content */
 
+.content p {
+  padding: 5px 0;
+}
+
 .content section .title {
   font-size: 1.8rem;
   height: 4.8rem;
@@ -79,22 +83,39 @@ body {
   vertical-align: middle;
 }
 
-.content section i {
+.content section .title-icon {
   color: #aaa;
+  width: 4.2rem;
+  height: 4.2rem;
   font-size: 4.2rem;
   vertical-align: middle;
+  text-align: center;
+}
+
+.content section .sub-title {
+  font-size: 1.6rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.content section .sub-icon {
+  color: #aaa;
+  width: 4.2rem;
+  font-size: 2rem;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .content section .box {
   border-left: 3px solid #eee;
-  margin-left: 10px;
-  padding: 10px;
+  margin-left: 24px;
+  padding: 24px 10px;
 }
 
 .content section .detail {
   color: #555;
   font-size: 1.4rem;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   margin-left: 12px;
   padding: 10px;
   background-color: #fbfbfb;
