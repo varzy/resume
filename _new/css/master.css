@@ -74,24 +74,7 @@ body {
 }
 
 .content section {
-  padding: 10px 20px;
-  position: relative;
-}
-
-.content section i {
-  color: #aaa;
-  display: inline;
-  position: absolute;
-  left: -16px;
-  top: 10px;
-  font-size: 3.6rem;
-  padding: 5px;
-  background-color: #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
+  padding: 12px 20px;
 }
 
 .content section h2 {
@@ -107,6 +90,9 @@ body {
 
 
 /* section-sub */
+
+
+/* person */
 
 .person ul {
   padding-left: 20px;
