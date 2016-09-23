@@ -68,3 +68,21 @@ body {
 #mainbody {
   background-color: #fff;
 }
+
+
+/* content */
+
+.content section h2 {
+  padding: 10px 0;
+}
+
+.content section .box {
+  border-left: 3px solid #eee;
+}
+
+.content section .detail {
+  margin-left: 12px;
+  padding: 10px;
+  background-color: #fbfbfb;
+  border: 1px solid #f3f3f3;
+}
