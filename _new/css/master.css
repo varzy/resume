@@ -64,7 +64,10 @@ body {
 
 
 /* #mainbody */
-#mainbody{
 
+#mainbody {
   background-color: #fff;
+}
+.content{
+  border-left: 2px solid #eee;
 }
