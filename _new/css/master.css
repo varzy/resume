@@ -72,17 +72,36 @@ body {
 
 /* content */
 
-.content section h2 {
-  padding: 10px 0;
+.content section .title {
+  font-size: 1.8rem;
+  height: 4.8rem;
+  line-height: 4.8rem;
+  vertical-align: middle;
+}
+
+.content section i {
+  color: #aaa;
+  font-size: 4.2rem;
+  vertical-align: middle;
 }
 
 .content section .box {
   border-left: 3px solid #eee;
+  margin-left: 10px;
+  padding: 10px;
 }
 
 .content section .detail {
+  color: #555;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
   margin-left: 12px;
   padding: 10px;
   background-color: #fbfbfb;
   border: 1px solid #f3f3f3;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
 }
