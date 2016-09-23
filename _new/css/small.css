@@ -23,8 +23,15 @@
 
 .contact li {
   text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  padding-left: 20px;
 }
 
 .avater-2 {
   display: none;
+}
+
+.avater img {
+  width: 150px;
 }

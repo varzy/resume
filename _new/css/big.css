@@ -15,14 +15,20 @@
 
 .contact {
   display: inline-block;
-  width: 480px;
+  width: 420px;
   vertical-align: middle;
-  padding-left: 30px;
+  padding-left: 60px;
 }
 
 .contact h1 {
   font-size: 5rem;
   padding-bottom: 10px;
+}
+
+.contact li {
+  font-size: 1.8rem;
+  padding-left: 20px;
+  line-height: 2rem;
 }
 
 .avater-1 {
@@ -34,4 +40,8 @@
   text-align: center;
   width: 300px;
   vertical-align: middle;
+}
+
+.avater img {
+  width: 180px;
 }

@@ -53,14 +53,7 @@ body {
   padding: 20px 0;
 }
 
-.contact li {
-  font-size: 1.8rem;
-  padding-left: 20px;
-  line-height: 2rem;
-}
-
 .avater img {
-  width: 150px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
