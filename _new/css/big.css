@@ -45,3 +45,11 @@
 .avater img {
   width: 180px;
 }
+
+
+/* #mainbody */
+
+.content {
+  margin-top: 10px;
+  padding: 20px 40px;
+}
