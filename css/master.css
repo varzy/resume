@@ -61,6 +61,10 @@ li {
 
 /* #mainbody */
 
+#mainbody {
+  background-color: #fff;
+}
+
 #mainbody section {
   position: relative;
 }
