@@ -106,6 +106,10 @@ body {
   text-align: center;
 }
 
+.content .en {
+  color: #aaa;
+}
+
 .content section .box {
   border-left: 3px solid #eee;
   margin-left: 24px;
