@@ -68,6 +68,22 @@ body {
 #mainbody {
   background-color: #fff;
 }
-.content{
-  border-left: 2px solid #eee;
+
+.content {
+  border-left: 3px solid #eee;
+}
+
+.content section {
+  padding: 10px;
+}
+
+.content section h2 {
+  padding: 10px 0;
+  font-size: 1.8rem;
+}
+
+.content section .detail {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #444;
 }
