@@ -68,36 +68,3 @@ body {
 #mainbody {
   background-color: #fff;
 }
-
-.content {
-  border-left: 3px solid #eee;
-}
-
-.content section {
-  padding: 12px 20px;
-}
-
-.content section h2 {
-  padding: 10px 0;
-  font-size: 1.8rem;
-}
-
-.content section .detail {
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-  color: #444;
-}
-
-
-/* section-sub */
-
-
-/* person */
-
-.person ul {
-  padding-left: 20px;
-}
-
-.person li {
-  list-style: disc;
-}
