@@ -1,35 +1,44 @@
-/* media for small screen. */
+/* media for small screen */
 
 @charset "utf-8";
-@media screen and (max-width:760px) {
-  /* container */
-  .container {
-    width: 99%;
-    margin: 0 auto;
-  }
-  /* page-title */
-  .page-title {
-    margin-top: 5px;
-  }
-  .page-title h1 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-  .page-title img {
-    display: none;
-  }
-  .page-title ul {
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-  }
-  /* mainbody */
-  .mainbody {
-    padding: 15px;
-  }
-  .mainbody .show h1 {
-    font-size: 2rem;
-  }
-    .mainbody .show h2 {
-    font-size: 2rem;
-  }
+
+/* .container */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* #title */
+
+#title {
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 3.5rem;
+  padding: 20px 0;
+}
+
+.contact li {
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  padding-left: 20px;
+}
+
+.avater-2 {
+  display: none;
+}
+
+.avater img {
+  width: 150px;
+}
+
+
+/* #mainbody */
+
+#mainbody {
+  padding: 20px 10px;
 }

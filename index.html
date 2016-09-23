@@ -1,243 +1,122 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="keywords" content="简历,前端,后端,web,resume,学生,招聘">
+  <meta name="description" content="这是 赵越 的个人简历展示页面，如果你需要招聘一个人才，那么我强烈向你推荐我自己。">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- chrome 标签栏主题色 -->
+  <meta name="theme-color" content="#303841">
+
   <title>zy's Resume</title>
 
-  <!-- css link -->
-  <link rel="stylesheet" href="css/Normalize.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/big.css">
-  <link rel="stylesheet" href="css/middle.css">
-  <link rel="stylesheet" href="css/small.css">
-  <link rel="stylesheet" href="css/font-awesome.min">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/print.css" media="print">
-  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/big.css" media="screen and (min-width: 830px)">
+  <link rel="stylesheet" href="css/small.css" media="screen and (max-width: 829px)">
+  <!-- 引用 font-awesome 图标 -->
+  <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
-  <!-- container -->
+  <!-- 
+  todo:
+    - 实现 material 的卡片式效果。
+ -->
+
+  <!-- 
+  explain:
+    - 基本色选用 #2B2E4A（黑） 和 #E84545（红）
+    - 主体中的内容在大屏幕上使用较宽的 padding ，在小屏幕上显示窄的 padding 。内容的值不变
+    - 布局使用 px ，内容大小使用 rem
+    - circle   circle-o    circle-thin
+ -->
+
   <div class="container">
 
-    <!-- page-title -->
+    <!-- #title -->
+    <div id="title">
 
-    <!-- todo : 关于大屏幕尺寸下的页头方案，接下来打算将图片放到中间，姓名和简介分局两侧 -->
+      <div class="avater avater-1">
+        <img src="img/avatar.jpg" alt="x">
+      </div>
 
-    <div class="page-title">
-      <h1>赵 越</h1>
+      <div class="contact">
+        <h1>赵 越</h1>
+        <ul>
+          <li><i class="fa fa-envelope"></i><a href="mailto:i@zyis.me">&nbsp;&nbsp;i@zyis.me</a></li>
+          <li><i class="fa fa-phone"></i>&nbsp;&nbsp;+86 155 6525 2838</li>
+          <li><i class="fa fa-wechat"></i>&nbsp;&nbsp;zxyy63630</li>
+          <li><i class="fa fa-github"></i><a href="https://github.com/zxyy63630" target="_blank">&nbsp;&nbsp;github.com/zxyy63630</a></li>
+          <li><i class="fa fa-rss"></i><a href="http://www.zyis.me/" target="_blank">&nbsp;&nbsp;www.zyis.me</a></li>
+        </ul>
+      </div>
 
-      <ul>
-        <li>
-          <i class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;&nbsp;</i>
-          <a href="mailto:i@zyis.me">i@zyis.me</a>
-        </li>
-
-        <li>
-          <i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;&nbsp;</i>
-          <span>+86 155 6525 2838</span>
-        </li>
-
-        <li>
-          <i class="fa fa-weixin" aria-hidden="true">&nbsp;&nbsp;</i>
-          <span>zxyy63630</span>
-        </li>
-
-        <li>
-          <i class="fa fa-github" aria-hidden="true">&nbsp;&nbsp;&nbsp;</i>
-          <a href="https://github.com/zxyy63630" target="_blank">github.com/zxyy63630</a>
-        </li>
-
-        <li>
-          <i class="fa fa-rss" aria-hidden="true">&nbsp;&nbsp;&nbsp;</i>
-          <a href="http://www.zyis.me/" target="_blank">www.zyis.me</a>
-        </li>
-      </ul>
-
-      <img src="img/photo.jpg" alt="x" class="photo">
+      <div class="avater avater-2">
+        <img src="img/avatar.jpg" alt="x">
+      </div>
 
     </div>
-    <!-- page-title end -->
+    <!-- #title end -->
 
 
-    <!-- mianbody -->
-    <div class="mainbody">
 
-      <!-- col-left -->
-      <div class="col-left">
+    <!-- #mainbody -->
+    <div id="mainbody">
+      <div class="content">
 
-        <!-- person -->
-        <div class="person show">
-          <h1>&nbsp;&nbsp;个人信息</h1>
+        <section class="person">
+          <h2 class="title"><i class="fa fa-male title-icon"></i>&nbsp;&nbsp;<span class="zh">个人信息 </span><span class="en">/ Person</span></h2>
 
-          <ul>
+          <div class="box">
+            <div class="detail">
+              <ul>
+                <li>姓 名：赵 越</li>
+                <li>性 别：男</li>
+                <li>生 辰：1996.03.28</li>
+                <li>毕业院校：河南师范大学</li>
+                <li>专 业：计算机科学与技术</li>
+                <li>学 历：本 科</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-            <!-- 方案一 -->
-            <li class="blank10"></li>
-            <li>
-              <div class="left-content">姓 名 | </div>
-              <div class="right-content">赵越</div>
-            </li>
-            <li>
-              <div class="left-content">性 别 | </div>
-              <div class="right-content">男</div>
-            </li>
-            <li>
-              <div class="left-content">年 龄 | </div>
-              <div class="right-content">21</div>
-            </li>
-            <li>
-              <div class="left-content">出生日期 | </div>
-              <div class="right-content">1996-03-28</div>
-            </li>
-            <li>
-              <div class="left-content">现 居 地 | </div>
-              <div class="right-content">河南省洛阳市</div>
-            </li>
+        <section class="code">
+          <h2 class="title"><i class="fa fa-code title-icon"></i>&nbsp;&nbsp;<span class="zh">项目开发 </span><span class="en">/ Project</span></h2>
 
+          <h3 class="sub-title"><i class="fa fa-circle-o sub-icon"></i>&nbsp;&nbsp;zyResume</h3>
+          <div class="box">
+            <div class="detail">
+              <p>这是我的个人简历项目。项目托管于我的个人网站： http://ziy.im/ 。该网页采用了两段式的响应式设计。断点为 830px 。
+              </p>
+              <p>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷</p>
+            </div>
+          </div>
 
-            <!-- 方案二 -->
+          <h3 class="sub-title"><i class="fa fa-circle-o sub-icon"></i>&nbsp;&nbsp;cssPreset</h3>
+          <div class="box">
+            <div class="detail">
+              <p>我自己开发的一套用于快速插入 css 常见样式的样式表。</p>
+              <p>锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷</p>
+            </div>
+          </div>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
 
-            <!--<li>姓名：赵越</li>
-            <li>性别：男</li>
-            <li>年龄：21</li>
-            <li>出生日期：1996-03-28</li>
-            <li>现居地：河南省洛阳市</li>-->
-
-          </ul>
-        </div>
-        <!-- person end -->
-
-        <!-- education -->
-        <div class="education show">
-          <h1>&nbsp;&nbsp;教育背景</h1>
-          <h2>2013 - 2017</h2>
-          <ul>
-
-            <!-- 方案一 -->
-
-            <li>
-              <div class="left-content">就读院校 | </div>
-              <div class="right-content">河南师范大学</div>
-            </li>
-            <li>
-              <div class="left-content">学 历 | </div>
-              <div class="right-content">本科</div>
-            </li>
-            <li>
-              <div class="left-content">专 业 | </div>
-              <div class="right-content">计算机科学与技术</div>
-            </li>
-
-            <!-- 方案二 -->
-
-            <!--<li>就读院校：河南师范大学</li>
-            <li>学历：本科</li>
-            <li>专业：计算机科学与技术</li>-->
-
-          </ul>
-        </div>
-        <!-- education end -->
-
-        <!-- project -->
-        <div class="project show">
-          <h1><i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;个人项目</h1>
-          <ul>
-            <li>
-              <h2>zyResume</h2>
-              <p>我的个人简历系统，采用了合理的响应式布局</p>
-            </li>
-            <li>
-              <h2>cssReset</h2>
-              <p>我个人开发的一套预设 CSS 样式，能够快速的在 HTML 种插入样式</p>
-            </li>
-            <li>
-              <h2>DeleteTextSpace</h2>
-              <p>使用 C# 语言写的一个小玩意，主要是为了删除文本中的空格</p>
-            </li>
-          </ul>
-        </div>
-        <!-- project end -->
 
       </div>
-      <!-- col-left end -->
-
-      <!-- col-right -->
-      <div class="col-right">
-
-        <!-- skill -->
-        <div class="skill show">
-          <h1><i class="fa fa-pie-chart" aria-hidden="true"></i>&nbsp;&nbsp;个人技能</h1>
-
-          <h2>英语能力</h2>
-          <ul>
-            <li>能够无障碍书写英语电子邮件</li>
-            <li>熟练了解 Github 功能</li>
-            <li>能够阅读 stackoverflow 中的问题</li>
-          </ul>
-
-          <h2>IDE</h2>
-          <ul>
-            <li>Visual Studio Code</li>
-            <li>Sublime</li>
-            <li>Emmet</li>
-          </ul>
-
-          <h2>Web 前端</h2>
-          <ul>
-            <li><strong>HTML / CSS</strong>。精通，可以实现复杂的 HTML 排版 </li>
-            <li>Javascript。可以实现复杂的网页特效 </li>
-            <li>DOM</li>
-            <li>网页自适应布局</li>
-            <li>CSS Hack</li>
-            <li>针对不同浏览器的调整</li>
-          </ul>
-
-          <h2>Web 后端</h2>
-          <ul>
-            <li>Python</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-
-          <h2>服务器</h2>
-          <ul>
-            <li>域名相关知识</li>
-            <li>服务器相关知识。可以实现自己开发网页，搭建服务器和 ss 等工具 </li>
-            <li></li>
-          </ul>
-
-          <h2>其他</h2>
-          <ul>
-            <li>熟练掌握各种翻墙知识</li>
-            <li>Photoshop</li>
-            <li>Premiere</li>
-            <li>Office</li>
-            <li></li>
-            <li></li>
-          </ul>
-
-        </div>
-        <!-- skill end -->
-
-      </div>
-      <!-- col-right end -->
-
-      <!-- clear float -->
-      <div class="clear"></div>
 
     </div>
-    <!-- mianbody end -->
+    <!-- #mainbody end -->
 
   </div>
-  <!-- container end -->
-
-
 
 
 
@@ -245,7 +124,7 @@
 
 
   <!-- js link -->
-  <!--<script src="https://use.fontawesome.com/c19d46e781.js"></script>-->
+  <script src="js/jquery-3.1.0.min.js"></script>
   <script src="js/index.js"></script>
 
 </body>
