@@ -24,7 +24,7 @@
 .contact li {
   text-align: left;
   font-size: 1.4rem;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   padding-left: 20px;
 }
 
@@ -41,4 +41,8 @@
 
 #mainbody {
   padding: 20px 10px;
+}
+
+.content .box {
+  margin-left: 19px;
 }
