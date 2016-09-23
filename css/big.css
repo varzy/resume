@@ -1,6 +1,10 @@
 /* media for big screen */
 
 @charset "utf-8";
+body {
+  background: url(../img/bg.jpg);
+}
+
 
 /* .container */
 
