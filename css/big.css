@@ -53,3 +53,7 @@ body {
 
 
 /* #mainbody */
+#mainbody{
+  padding: 20px;
+  margin-top: 10px;
+}

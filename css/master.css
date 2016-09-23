@@ -60,3 +60,13 @@ li {
 
 
 /* #mainbody */
+
+#mainbody section {
+  position: relative;
+}
+
+#mainbody section i {
+  position: absolute;
+  left: -4px;
+  top: 10px;
+}
