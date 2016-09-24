@@ -42,3 +42,7 @@
 #mainbody {
   padding: 20px 15px;
 }
+
+#mainbody section .detail {
+  margin-left: 15px;
+}

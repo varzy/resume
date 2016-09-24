@@ -67,17 +67,37 @@ li {
 
 #mainbody .content {
   border-left: 3px solid #eee;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
 #mainbody section {
   position: relative;
+  padding: 15px 0;
+}
+
+#mainbody section h2 {
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+#mainbody section .en {
+  color: #aaa;
+}
+
+#mainbody section .detail {
+  color: #555;
+  background-color: #fbfbfb;
+  border: 1px solid #f3f3f3;
+  padding: 15px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
 }
 
 #mainbody section i {
   position: absolute;
-}
-
-#mainbody section .detail {
-  background-color: #fbfbfb;
-  border: 1px solid #f3f3f3;
 }
