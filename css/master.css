@@ -64,7 +64,9 @@ li {
 #mainbody {
   background-color: #fff;
 }
-
+#mainbody .content{
+  border-left: 3px solid #eee;
+}
 #mainbody section {
   position: relative;
 }
