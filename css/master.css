@@ -64,15 +64,20 @@ li {
 #mainbody {
   background-color: #fff;
 }
-#mainbody .content{
+
+#mainbody .content {
   border-left: 3px solid #eee;
 }
+
 #mainbody section {
   position: relative;
 }
 
 #mainbody section i {
   position: absolute;
-  left: -4px;
-  top: 10px;
+}
+
+#mainbody section .detail {
+  background-color: #fbfbfb;
+  border: 1px solid #f3f3f3;
 }
