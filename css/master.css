@@ -98,6 +98,10 @@ li {
   border-radius: 8px;
 }
 
+.detail p {
+  padding: 5px 0;
+}
+
 #mainbody section i {
   position: absolute;
   -webkit-border-radius: 50%;
