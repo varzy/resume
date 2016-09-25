@@ -73,7 +73,7 @@ li {
 
 #mainbody section {
   position: relative;
-  padding: 20px 0;
+  padding-top: 30px;
 }
 
 #mainbody section h2 {
@@ -107,11 +107,11 @@ li {
   border-radius: 50%;
   color: #aaa;
   background-color: #fff;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   font-size: 32px;
-  left: -22px;
-  top: 10px;
+  left: -26px;
+  top: 14px;
 }
