@@ -100,4 +100,18 @@ li {
 
 #mainbody section i {
   position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #aaa;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 32px;
+  left: -22px;
+  top: 10px;
 }
