@@ -130,6 +130,7 @@ li {
   text-align: center;
   font-size: 32px;
   left: -26px;
+  top: 14px;
 }
 
 #mainbody section .sub-icon {
@@ -139,4 +140,5 @@ li {
   text-align: center;
   font-size: 18px;
   left: -16px;
+  top: 16px;
 }
