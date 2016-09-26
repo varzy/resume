@@ -1,17 +1,10 @@
 $(function() {
-  // hoverColorChange($(".project-sub1"))
-
-
-
-  // function hoverColorChange(className) {
-  //   $(className).css({ color: "#E84545" })
-  // }
-
-
+  // wechat qr code
   if (window.innerWidth > 829) {
-    $(".wechatqr").click(function() {
-      $("#wechatqr-img").show();
+    $(".wechatqr-link").click(function() {
+      $("#wechatqr").show();
       $("#bg-grey").show();
+      $("#btn-close").show();
     })
   }
 

@@ -180,30 +180,36 @@ li {
 
 /* other */
 
-#wechatqr-img {
+
+
+#wechatqr{
   display: none;
+  position: fixed;
   width: 300px;
   height: 300px;
-  position: fixed;
   margin: auto;
-  left: 0px;
+  left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: 2;
 }
 
+#btn-close {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  z-index: 2;
+}
+
 #bg-grey {
   display: none;
-  z-index: 1;
   position: fixed;
   margin: auto;
   left: 0px;
   right: 0;
   top: 0;
   bottom: 0;
-}
-
-#btn-close {
-  display: none;
+  z-index: 1;
 }
