@@ -10,7 +10,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 14px;
   font-family: "微软雅黑";
   /* 10 ÷ 16 × 100% = 62.5% */
 }
@@ -67,8 +67,7 @@ li {
 
 #mainbody .content {
   border-left: 3px solid #eee;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
+  line-height: 18px;
 }
 
 #mainbody section {
@@ -77,13 +76,13 @@ li {
 }
 
 #mainbody section h2 {
-  font-size: 1.8rem;
+  font-size: 18px;
   padding-bottom: 20px;
   padding-left: 30px;
 }
 
 #mainbody section h3 {
-  font-size: 1.6rem;
+  font-size: 16px;
   padding: 20px 0;
   padding-left: 30px;
 }
@@ -140,5 +139,5 @@ li {
   text-align: center;
   font-size: 18px;
   left: -16px;
-  top: 16px;
+  top: 15px;
 }

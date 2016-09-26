@@ -26,14 +26,14 @@ body {
 }
 
 .contact h1 {
-  font-size: 4.6rem;
+  font-size: 46px;
   padding-bottom: 10px;
 }
 
 .contact li {
-  font-size: 1.8rem;
+  font-size: 18px;
   padding-left: 20px;
-  line-height: 2rem;
+  line-height: 20px;
 }
 
 .avater-1 {
