@@ -1,17 +1,18 @@
 $(function() {
+  // $("*").fadeIn;
 
   // wechat qr code
   if (window.innerWidth > 829) {
     $(".wechatqr-link").click(function() {
-      $("#wechatqr").fadeIn();
-      $("#bg-grey").fadeIn();
-      $("#btn-close").fadeIn();
+      $("#wechatqr").fadeToggle();
+      $("#bg-grey").fadeToggle();
+      $("#btn-close").fadeToggle();
     })
 
     $("#btn-close").click(function() {
-      $("#wechatqr").fadeOut();
-      $("#bg-grey").fadeOut();
-      $("#btn-close").fadeOut();
+      $("#wechatqr").fadeToggle();
+      $("#bg-grey").fadeToggle();
+      $("#btn-close").fadeToggle();
     })
 
   }
