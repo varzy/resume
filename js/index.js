@@ -3,15 +3,15 @@ $(function() {
   // wechat qr code
   if (window.innerWidth > 829) {
     $(".wechatqr-link").click(function() {
-      $("#wechatqr").show();
-      $("#bg-grey").show();
-      $("#btn-close").show();
+      $("#wechatqr").fadeIn();
+      $("#bg-grey").fadeIn();
+      $("#btn-close").fadeIn();
     })
 
     $("#btn-close").click(function() {
-      $("#wechatqr").hide();
-      $("#bg-grey").hide();
-      $("#btn-close").hide();
+      $("#wechatqr").fadeOut();
+      $("#bg-grey").fadeOut();
+      $("#btn-close").fadeOut();
     })
 
   }
