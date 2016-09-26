@@ -8,8 +8,8 @@ $(function() {
   // }
 
 
-  $(".wechat-qr").click(function() {
-
+  $(".wechatqr").click(function() {
+    $(".wechatqr-img").show();
   })
 
 
