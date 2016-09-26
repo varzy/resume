@@ -1,4 +1,5 @@
 $(function() {
+
   // wechat qr code
   if (window.innerWidth > 829) {
     $(".wechatqr-link").click(function() {
@@ -6,7 +7,16 @@ $(function() {
       $("#bg-grey").show();
       $("#btn-close").show();
     })
+
+    $("#btn-close").click(function() {
+      $("#wechatqr").hide();
+      $("#bg-grey").hide();
+      $("#btn-close").hide();
+    })
+
   }
+
+
 
 
 

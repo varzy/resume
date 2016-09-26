@@ -180,9 +180,7 @@ li {
 
 /* other */
 
-
-
-#wechatqr{
+#wechatqr {
   display: none;
   position: fixed;
   width: 300px;
@@ -201,6 +199,18 @@ li {
   top: 50px;
   right: 50px;
   z-index: 2;
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #555;
+  color: #fff;
 }
 
 #bg-grey {
