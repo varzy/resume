@@ -78,6 +78,10 @@ li {
   text-align: center;
 }
 
+.contact .wechatqr-link {
+  cursor: pointer;
+}
+
 
 /* #mainbody */
 
