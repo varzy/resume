@@ -23,7 +23,8 @@ h3 {
   font-weight: normal;
 }
 
-a:link,
+
+/*a:link,
 a:visited {
   text-decoration: none;
   color: #fff;
@@ -32,7 +33,7 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: #E84545;
-}
+}*/
 
 ul,
 ol,
@@ -47,6 +48,20 @@ li {
   background-color: #303841;
   color: #fff;
   padding: 20px 0;
+}
+
+#title a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+#title a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+#title a:hover {
+  color: #E84545;
 }
 
 .avater img {
@@ -145,4 +160,19 @@ li {
   font-size: 18px;
   left: -16px;
   top: 15px;
+}
+
+#mainbody a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+#mainbody a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+#mainbody a:hover {
+  text-decoration: none;
+  color: #E84545;
 }

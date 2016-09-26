@@ -1,13 +1,18 @@
 $(function() {
-  $(".sub").hover(
-    function() {
-      // hover
+  // hoverColorChange($(".project-sub1"))
 
-    },
-    function() {
-      // remove
 
-    }
-  )
+
+  // function hoverColorChange(className) {
+  //   $(className).css({ color: "#E84545" })
+  // }
+
+
+  $(".wechat-qr").click(function() {
+
+  })
+
+
+
 
 });
