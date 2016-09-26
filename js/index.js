@@ -8,9 +8,14 @@ $(function() {
   // }
 
 
-  $(".wechatqr").click(function() {
-    $(".wechatqr-img").show();
-  })
+  if (window.innerWidth > 829) {
+    $(".wechatqr").click(function() {
+      $(".wechatqr-img").show();
+    })
+  }
+
+
+
 
 
 
