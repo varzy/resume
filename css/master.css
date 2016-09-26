@@ -180,9 +180,26 @@ li {
 
 /* other */
 
-.wechatqr-img {
+.bg-grey {
+  display: none;
+  z-index: 1;
   position: fixed;
+  margin: auto;
+  left: 0px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.wechatqr-img {
+  display: none;
   width: 300px;
   height: 300px;
-  display: none;
+  position: fixed;
+  margin: auto;
+  left: 0px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
 }

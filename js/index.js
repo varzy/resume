@@ -11,6 +11,7 @@ $(function() {
   if (window.innerWidth > 829) {
     $(".wechatqr").click(function() {
       $(".wechatqr-img").show();
+      $(".bg-grey").show();
     })
   }
 
