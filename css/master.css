@@ -48,6 +48,7 @@ li {
   background-color: #303841;
   color: #fff;
   padding: 20px 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
 }
 
 #title a:link {
@@ -87,6 +88,7 @@ li {
 
 #mainbody {
   background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
 }
 
 #mainbody .content {
@@ -183,9 +185,11 @@ li {
 
 
 /* footer */
-footer{
+
+footer {
   padding: 20px 0;
 }
+
 footer p {
   text-align: center;
   color: #555;
