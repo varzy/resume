@@ -183,7 +183,9 @@ li {
 
 
 /* footer */
-
+footer{
+  padding: 20px 0;
+}
 footer p {
   text-align: center;
   color: #555;
