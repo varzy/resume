@@ -2,7 +2,8 @@
 
 @charset "utf-8";
 body {
-  background: url(../img/bg.jpg);
+  /*background: url(../img/bg.jpg);*/
+  background-color: #eee;
 }
 
 
