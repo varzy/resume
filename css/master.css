@@ -228,6 +228,7 @@ footer p {
   border-radius: 50%;
   background-color: #555;
   color: #fff;
+  cursor: pointer;
 }
 
 #btn-close:hover {
