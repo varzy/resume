@@ -217,6 +217,10 @@ li {
   color: #fff;
 }
 
+#btn-close:hover {
+  color: #E84545;
+}
+
 #bg-grey {
   display: none;
   position: fixed;
