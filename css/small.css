@@ -46,9 +46,3 @@
 #mainbody section .detail {
   margin-left: 15px;
 }
-
-@media (max-width:829px) and (min-width:480px) {
-  #mainbody {
-    padding: 20px 30px 20px 40px;
-  }
-}
