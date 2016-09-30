@@ -46,3 +46,10 @@
 #mainbody section .detail {
   margin-left: 15px;
 }
+
+
+/* footer */
+
+footer {
+  display: none;
+}
