@@ -89,6 +89,10 @@ li {
   background-color: #fff;
 }
 
+/*#mainbody .detail li {
+  list-style: disc;
+}*/
+
 #mainbody .content {
   border-left: 3px solid #eee;
   line-height: 18px;
