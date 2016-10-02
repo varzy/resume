@@ -1,6 +1,6 @@
 # zy's Resume
 
-这里是 赵越 的个人简历说明页面。如果你想要查看我的详细信息，请前往 <http://ziy.im/> 。
+这里是 **赵越** 的个人简历说明页面。如果你想要查看我的详细简历，请前往 <http://ziy.im/> 。
 
 ## 联系方式 | Contact Me
 
@@ -38,10 +38,12 @@
 
 ## 技能清单 | Skill
 
-### Web 前端
+- Web 前端
+- Web 后端
+- 其他
 
-### Web 后端
+## 自我评价 | Introduce
 
-### 其他
-
-### 自我评价 | Introduce
+- Geeker
+- Virgo
+- Coder
