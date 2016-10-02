@@ -1,15 +1,8 @@
 # zy's Resume
 
-Website：http://ziy.im/  
+## 联系方式 | Contact Me
 
+- 邮件 | Mail : <a href="mailto:i@zyis.me">&nbsp;&nbsp;i@zyis.me</a>  
+- 电话 | Tel Number : +86 155 6525 2838
 
-E-mail：i@zyis.me  
-
-
-Tel：+86 155 6525 2838
-
-## 关于项目内的东西
-
-### Icons
-
-来自 http://fontawesome.dashgame.com/ 的 font-awesome 项目
+## 基本信息
