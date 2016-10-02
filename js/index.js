@@ -1,5 +1,4 @@
 $(function() {
-  // $("*").fadeIn;
 
   // wechat qr code
   if (window.innerWidth > 767) {
