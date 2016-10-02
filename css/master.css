@@ -11,7 +11,8 @@
 
 html {
   font-size: 14px;
-  font-family: "微软雅黑";
+  font-family: "Georgia", "Microsoft YaHei";
+  /*font-family: "微软雅黑";*/
   /* 10 ÷ 16 × 100% = 62.5% */
 }
 
@@ -88,6 +89,7 @@ li {
 #mainbody {
   background-color: #fff;
 }
+
 
 /*#mainbody .detail li {
   list-style: disc;
