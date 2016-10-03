@@ -65,11 +65,11 @@ li {
 }
 
 .avater img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 99%;
+  -moz-border-radius: 99%;
+  -ms-border-radius: 99%;
+  -o-border-radius: 99%;
+  border-radius: 99%;
   border: 3px solid #fff;
 }
 
