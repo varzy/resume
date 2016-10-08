@@ -34,12 +34,13 @@ body {
 .contact h1 {
   font-size: 46px;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .contact li {
   font-size: 17px;
   line-height: 22px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .avater-1 {
