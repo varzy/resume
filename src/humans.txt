@@ -1,0 +1,39 @@
+/* TEAM */
+
+  Developer: zy
+  Contact: varzy@live.com
+  Blog: http://varzy.me
+  From: LuoYang, HeNan, China
+  Location: XinXiang, HeNan, China
+  University: Henan Normal University
+
+/* THANKS */
+
+  Github.com
+  Site: https://github.com
+
+  Normalize.css
+  Site: https://necolas.github.io/normalize.css/
+
+  humans.txt
+  Site: http://www.humanstxt.org.cn/
+
+  Visual Studio Code
+  Site: https://code.visualstudio.com
+
+/* SITE */
+
+  Last update: 2016/12/04
+  Language: Chinese
+  Doctype: HTML5
+  Standards: HTML5, CSS3
+  Deployment: Git, Github
+  IDE: Visual Studio Code
+
+
+    __  ___          __        __                        
+   /  |/  /___ _____/ /__     / /_  __  __   ____  __  __
+  / /|_/ / __ `/ __  / _ \   / __ \/ / / /  /_  / / / / /
+ / /  / / /_/ / /_/ /  __/  / /_/ / /_/ /    / /_/ /_/ / 
+/_/  /_/\__,_/\__,_/\___/  /_.___/\__, /    /___/\__, /  
+                                 /____/         /____/   
