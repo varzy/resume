@@ -44,6 +44,6 @@
 
 ## 自我评价 | Introduce
 
-- Geeker
+- Geek
 - Virgo
 - Coder
