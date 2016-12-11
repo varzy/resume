@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/**
+ * public style
+ */
+
+
+/**
+ * preset style
+ */
+
+
+/* float */
+
+.fl {
+  float: left !important;
+}
+
+.fr {
+  float: right !important;
+}
+
+
+/* clearfix */
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
