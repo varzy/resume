@@ -6,13 +6,21 @@
 
 html {
   font-size: 62.5%;
-  color: #222;
 }
 
-.browser-update {
-  background-color: #ccc;
-  padding: 1rem;
-  margin: 0;
+body {
+  color: #222;
+  background-color: #f7f7f7;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #0ae;
+  text-decoration: underline;
 }
 
 

@@ -3,3 +3,9 @@
 /**
  * master style
  */
+
+.browser-update {
+  background-color: #ccc;
+  padding: 1rem;
+  margin: 0;
+}
