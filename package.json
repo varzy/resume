@@ -1,0 +1,31 @@
+{
+  "name": "zyresume",
+  "version": "1.0.0",
+  "description": "这里是 **赵越** 的个人简历说明页面。如果你想要查看我的详细简历，请前往 <http://ziy.im/> 。",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varzy/zyResume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varzy/zyResume/issues"
+  },
+  "homepage": "https://github.com/varzy/zyResume#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2"
+  }
+}
