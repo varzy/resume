@@ -156,6 +156,18 @@ section .title .eng {
 /* end .mainbody */
 
 
+/* footer */
+
+footer {
+  background-color: #222;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* end footer */
+
+
 /* other */
 
 .browser-update {
