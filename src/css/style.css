@@ -5,6 +5,10 @@
  */
 
 @media only screen and (min-width: 830px) {
+  .wrap {
+    width: 830px;
+    padding: 0 2rem;
+  }
   /* header */
   header img {
     width: 18rem;
@@ -14,6 +18,10 @@
 }
 
 @media only screen and (max-width: 829px) {
+  .wrap {
+    width: 100%;
+    padding: 0 1rem;
+  }
   /* header */
   header img {
     width: 14rem;
@@ -26,6 +34,11 @@
 /**
  * master style
  */
+
+.wrap {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
 
 /* header */
@@ -60,8 +73,15 @@ header em {
 
 /* .mainbody */
 
-section {
-  
+section .title {
+  text-align: center;
+}
+
+section .title hr {
+  width: 7rem;
+  height: 0.5rem;
+  background-color: #222;
+  border: 0;
 }
 
 
