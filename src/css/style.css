@@ -15,6 +15,11 @@
     height: 18rem;
   }
   /* end header */
+  /* .mainbody */
+  section {
+    font-size: 1.8rem;
+  }
+  /* end .mainbody */
 }
 
 @media only screen and (max-width: 829px) {
@@ -28,6 +33,11 @@
     height: 14rem;
   }
   /* end header */
+  /* .mainbody */
+  section {
+    font-size: 1.6rem;
+  }
+  /* end .mainbody */
 }
 
 

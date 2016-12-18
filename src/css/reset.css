@@ -6,12 +6,12 @@
 
 html {
   font-size: 62.5%;
+  font-family: -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", sans-serif, Meiryo;
 }
 
 body {
   color: #222;
 }
-
 
 ul {
   padding: 0;
