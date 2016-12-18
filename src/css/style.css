@@ -4,17 +4,67 @@
  * responsive style
  */
 
-@media only screen and (min-width: 830px) {}
+@media only screen and (min-width: 830px) {
+  /* header */
+  header img {
+    width: 18rem;
+    height: 18rem;
+  }
+  /* end header */
+}
 
-@media only screen and (max-width: 829px) {}
+@media only screen and (max-width: 829px) {
+  /* header */
+  header img {
+    width: 14rem;
+    height: 14rem;
+  }
+  /* end header */
+}
 
 
 /**
  * master style
  */
 
+
+/* header */
+
+header {
+  text-align: center;
+  background-color: #333;
+  padding: 8rem 0;
+  color: #fff;
+}
+
+header img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 0.3rem solid #fff;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header em {
+  font-size: 3rem;
+}
+
+
+/* end header */
+
+
+/* other */
+
 .browser-update {
   background-color: #ccc;
   padding: 1rem;
   margin: 0;
 }
+
+
+/* other end */
