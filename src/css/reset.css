@@ -21,6 +21,14 @@ ul li {
   list-style: none;
 }
 
+a {
+  font-size: 2.4rem;
+}
+
+a:link {
+  color: #fff;
+}
+
 
 /**
  * preset style
