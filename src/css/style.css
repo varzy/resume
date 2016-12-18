@@ -6,8 +6,7 @@
 
 @media only screen and (min-width: 830px) {
   .wrap {
-    width: 830px;
-    padding: 0 2rem;
+    width: 790px;
   }
   /* header */
   header img {
@@ -28,7 +27,7 @@
 @media only screen and (max-width: 829px) {
   .wrap {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.8rem;
   }
   /* header */
   header img {
@@ -54,6 +53,7 @@
 .wrap {
   margin: 0 auto;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 
@@ -99,6 +99,24 @@ section .title hr {
   height: 0.5rem;
   background-color: #222;
   border: 0;
+}
+
+.skill .bar-chart {
+  background-color: #222;
+  border-left: 0.4rem solid #5cf;
+  color: #fff;
+  height: 3.6rem;
+  overflow: hidden;
+}
+
+.skill .bar-chart span {
+  padding-left: 1.6rem;
+  line-height: 3.6rem;
+  border: 1px solid red;
+}
+
+.html {
+  width: 100%;
 }
 
 
