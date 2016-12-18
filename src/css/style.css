@@ -54,6 +54,7 @@
 /* header */
 
 header {
+  width: 100%;
   text-align: center;
   background-color: #333;
   padding: 8rem 0;
