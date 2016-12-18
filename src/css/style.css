@@ -118,8 +118,20 @@ section .title hr {
   padding-left: 1.6rem;
 }
 
-.html {
+.skill-item-html {
   width: 90%;
+}
+
+.skill-item-javascript {
+  width: 70%;
+}
+
+.skill-item-git {
+  width: 96%;
+}
+
+.skill-item-nodejs {
+  width: 60%;
 }
 
 
