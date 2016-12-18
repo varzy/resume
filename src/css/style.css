@@ -53,7 +53,6 @@
 .wrap {
   margin: 0 auto;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 
@@ -101,22 +100,26 @@ section .title hr {
   border: 0;
 }
 
-.skill .bar-chart {
-  background-color: #222;
-  border-left: 0.4rem solid #5cf;
+.bar-chart {
+  width: 100%;
   color: #fff;
-  height: 3.6rem;
-  overflow: hidden;
+  /* ! need reset ! */
+  background-color: #E7E8F5;
+  height: 3rem;
 }
 
-.skill .bar-chart span {
+.bar-chart-inner {
+  line-height: 3rem;
+  /* ! need reset ! */
+  background-color: #34495D;
+}
+
+.bar-chart-inner span {
   padding-left: 1.6rem;
-  line-height: 3.6rem;
-  border: 1px solid red;
 }
 
 .html {
-  width: 100%;
+  width: 90%;
 }
 
 
