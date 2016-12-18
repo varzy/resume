@@ -6,8 +6,7 @@
 
 @media only screen and (min-width: 830px) {
   .wrap {
-    width: 830px;
-    padding: 0 2rem;
+    width: 790px;
   }
   /* header */
   header img {
@@ -28,7 +27,7 @@
 @media only screen and (max-width: 829px) {
   .wrap {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.8rem;
   }
   /* header */
   header img {
@@ -99,6 +98,40 @@ section .title hr {
   height: 0.5rem;
   background-color: #222;
   border: 0;
+}
+
+.bar-chart {
+  width: 100%;
+  color: #fff;
+  /* ! need reset ! */
+  background-color: #E7E8F5;
+  height: 3rem;
+}
+
+.bar-chart-inner {
+  line-height: 3rem;
+  /* ! need reset ! */
+  background-color: #34495D;
+}
+
+.bar-chart-inner span {
+  padding-left: 1.6rem;
+}
+
+.skill-item-html {
+  width: 90%;
+}
+
+.skill-item-javascript {
+  width: 70%;
+}
+
+.skill-item-git {
+  width: 96%;
+}
+
+.skill-item-nodejs {
+  width: 60%;
 }
 
 
