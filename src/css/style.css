@@ -19,6 +19,9 @@
   section {
     font-size: 1.8rem;
   }
+  .info ul {
+    width: 50%;
+  }
   /* end .mainbody */
 }
 
@@ -36,6 +39,9 @@
   /* .mainbody */
   section {
     font-size: 1.6rem;
+  }
+  .info ul {
+    width: 100%;
   }
   /* end .mainbody */
 }
