@@ -12,6 +12,14 @@ body {
   color: #222;
 }
 
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
 
 /**
  * preset style
