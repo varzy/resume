@@ -100,6 +100,10 @@ section .title hr {
   border: 0;
 }
 
+section .title .eng {
+  font-size: 2.2rem;
+}
+
 .bar-chart {
   width: 100%;
   color: #fff;
@@ -132,6 +136,20 @@ section .title hr {
 
 .skill-item-nodejs {
   width: 60%;
+}
+
+.project ul {
+  position: relative;
+}
+
+.project h3 {
+  display: inline-block;
+  padding-right: 3rem;
+}
+
+.project .tags {
+  background-color: #EE7738;
+  color: #fff;
 }
 
 
