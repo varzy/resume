@@ -138,6 +138,20 @@ section .title .eng {
   width: 60%;
 }
 
+.project ul {
+  position: relative;
+}
+
+.project h3 {
+  display: inline-block;
+  padding-right: 3rem;
+}
+
+.project .tags {
+  background-color: #EE7738;
+  color: #fff;
+}
+
 
 /* end .mainbody */
 
