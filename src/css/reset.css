@@ -25,8 +25,14 @@ a {
   font-size: 2.4rem;
 }
 
-a:link {
-  color: #fff;
+a:link, a:visited {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  /* ! need reset ! */
+  color: #6cf;
 }
 
 

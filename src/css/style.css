@@ -166,6 +166,10 @@ footer {
   text-align: center;
 }
 
+footer a:link {
+  color: #fff;
+}
+
 
 /* end footer */
 
