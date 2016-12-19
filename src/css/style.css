@@ -107,7 +107,7 @@ section .title .eng {
 
 /* .skill */
 
-.bar-chart {
+.skill .bar-chart {
   width: 100%;
   color: #fff;
   /* ! need reset ! */
@@ -116,14 +116,14 @@ section .title .eng {
   /*border-radius: 1.4rem;*/
 }
 
-.bar-chart-inner {
+.skill .bar-chart-inner {
   line-height: 3rem;
   /* ! need reset ! */
   background-color: #34495D;
   /*border-radius: 1.4rem;*/
 }
 
-.bar-chart-inner span {
+.skill .bar-chart-inner span {
   padding-left: 1.6rem;
 }
 
@@ -149,13 +149,8 @@ section .title .eng {
 
 /* .project */
 
-.project ul {
-  position: relative;
-}
-
-.sub-title h3 {
-  text-align: left;
-  border: 1px solid red;
+.project .sub-title h3 {
+  padding-right: 1rem;
   display: inline-block;
 }
 
