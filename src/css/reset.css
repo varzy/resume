@@ -21,6 +21,20 @@ ul li {
   list-style: none;
 }
 
+a {
+  font-size: 2.4rem;
+}
+
+a:link, a:visited {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  /* ! need reset ! */
+  color: #6cf;
+}
+
 
 /**
  * preset style

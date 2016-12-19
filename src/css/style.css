@@ -110,12 +110,14 @@ section .title .eng {
   /* ! need reset ! */
   background-color: #E7E8F5;
   height: 3rem;
+  /*border-radius: 1.4rem;*/
 }
 
 .bar-chart-inner {
   line-height: 3rem;
   /* ! need reset ! */
   background-color: #34495D;
+  /*border-radius: 1.4rem;*/
 }
 
 .bar-chart-inner span {
@@ -147,13 +149,36 @@ section .title .eng {
   padding-right: 3rem;
 }
 
+.project .sub-title {
+  display: inline-block;
+}
+
 .project .tags {
   background-color: #EE7738;
   color: #fff;
+  padding: 0.2rem 0.4rem;
 }
 
 
 /* end .mainbody */
+
+
+/* footer */
+
+footer {
+  color: #fff;
+  padding: 2rem 0;
+  background-color: #222;
+  width: 100%;
+  text-align: center;
+}
+
+footer a:link {
+  color: #fff;
+}
+
+
+/* end footer */
 
 
 /* other */
