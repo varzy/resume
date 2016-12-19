@@ -104,6 +104,9 @@ section .title .eng {
   font-size: 2.2rem;
 }
 
+
+/* .skill */
+
 .bar-chart {
   width: 100%;
   color: #fff;
@@ -140,24 +143,30 @@ section .title .eng {
   width: 60%;
 }
 
+
+/* end .skill */
+
+
+/* .project */
+
 .project ul {
   position: relative;
 }
 
-.project h3 {
-  display: inline-block;
-  padding-right: 3rem;
-}
-
-.project .sub-title {
+.sub-title h3 {
+  text-align: left;
+  border: 1px solid red;
   display: inline-block;
 }
 
-.project .tags {
+.project .tags span {
   background-color: #EE7738;
   color: #fff;
   padding: 0.2rem 0.4rem;
 }
+
+
+/* end .project */
 
 
 /* end .mainbody */
