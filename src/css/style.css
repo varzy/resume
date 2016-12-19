@@ -154,7 +154,8 @@ section .title .eng {
   display: inline-block;
 }
 
-.project .tags span {
+.project .tags li {
+  display: inline-block;
   background-color: #EE7738;
   color: #fff;
   padding: 0.2rem 0.4rem;
