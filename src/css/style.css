@@ -22,6 +22,15 @@
     width: 50%;
   }
   /* end .mainbody */
+  /* other */
+  .nav-col-bar {
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 5rem;
+    margin-top: -6rem;
+  }
+  /* end other */
 }
 
 @media only screen and (max-width: 829px) {
@@ -43,6 +52,11 @@
     width: 100%;
   }
   /* end .mainbody */
+  /* other */
+  .nav-col-bar {
+    display: none;
+  }
+  /* end other */
 }
 
 
@@ -195,4 +209,4 @@ footer a:link {
 }
 
 
-/* other end */
+/* end other */
