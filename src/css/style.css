@@ -22,6 +22,21 @@
     width: 50%;
   }
   /* end .mainbody */
+  /* other */
+  .nav-col-bar {
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 5rem;
+    margin-top: -6rem;
+  }
+  .nav-col-bar li {
+    margin-top: 0.6rem;
+  }
+  .nav-col-bar li:hover {
+    background-color: #000;
+  }
+  /* end other */
 }
 
 @media only screen and (max-width: 829px) {
@@ -43,6 +58,11 @@
     width: 100%;
   }
   /* end .mainbody */
+  /* other */
+  .nav-col-bar {
+    display: none;
+  }
+  /* end other */
 }
 
 
@@ -104,7 +124,10 @@ section .title .eng {
   font-size: 2.2rem;
 }
 
-.bar-chart {
+
+/* .skill */
+
+.skill .bar-chart {
   width: 100%;
   color: #fff;
   /* ! need reset ! */
@@ -113,14 +136,14 @@ section .title .eng {
   /*border-radius: 1.4rem;*/
 }
 
-.bar-chart-inner {
+.skill .bar-chart-inner {
   line-height: 3rem;
   /* ! need reset ! */
   background-color: #34495D;
   /*border-radius: 1.4rem;*/
 }
 
-.bar-chart-inner span {
+.skill .bar-chart-inner span {
   padding-left: 1.6rem;
 }
 
@@ -140,24 +163,26 @@ section .title .eng {
   width: 60%;
 }
 
-.project ul {
-  position: relative;
-}
 
-.project h3 {
-  display: inline-block;
-  padding-right: 3rem;
-}
+/* end .skill */
 
-.project .sub-title {
+
+/* .project */
+
+.project .sub-title h3 {
+  padding-right: 1rem;
   display: inline-block;
 }
 
-.project .tags {
+.project .tags li {
+  display: inline-block;
   background-color: #EE7738;
   color: #fff;
   padding: 0.2rem 0.4rem;
 }
+
+
+/* end .project */
 
 
 /* end .mainbody */
@@ -190,4 +215,4 @@ footer a:link {
 }
 
 
-/* other end */
+/* end other */
