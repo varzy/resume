@@ -4,7 +4,7 @@
 
 ## 联系方式 | Contact Me
 
-- 邮件 | Mail : <a href="mailto:i@zyis.me">&nbsp;&nbsp;varzy@live.com</a>  
+- 邮件 | Mail : <a href="mailto:varzy@live.com">&nbsp;&nbsp;varzy@live.com</a>  
 - 电话 | Tel Number : +86 155 6525 2838
 - 微信 | Wechat : zxyy63630
 - 博客 | Blog : <a href="http://www.zyis.me/" target="_blank">www.zyis.me</a>
