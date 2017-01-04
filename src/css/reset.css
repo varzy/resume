@@ -71,6 +71,19 @@ h3 {
 }
 
 
+/* bg-color */
+
+.bg-light {
+  color: #222;
+  background-color: #fafafa;
+}
+
+.bg-dark {
+  color: #fafafa;
+  background-color: #333;
+}
+
+
 /* float */
 
 .fl {

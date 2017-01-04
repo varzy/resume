@@ -68,8 +68,9 @@ header .show-page img {
   -o-border-radius: 99%;
   -ms-border-radius: 99%;
   border-radius: 99%;
-  width: 4rem;
   border: 3px solid #fafafa;
+  /* FIXME */
+  width: 4rem;
 }
 
 
@@ -78,8 +79,9 @@ header .show-page img {
 
 /* .mainbody */
 
-
-/* end .project */
+.mainbody section .sub-title {
+  text-align: center;
+}
 
 
 /* end .mainbody */
