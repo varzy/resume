@@ -4,9 +4,9 @@
  * responsive style
  */
 
-@media only screen and (min-width: 830px) {
+@media only screen and (min-width: 960px) {
   .wrap {
-    width: 790px;
+    width: 960px;
   }
   /* header */
   header img {
@@ -39,7 +39,7 @@
   /* end other */
 }
 
-@media only screen and (max-width: 829px) {
+@media only screen and (max-width: 959px) {
   .wrap {
     width: 100%;
     padding: 0 1.8rem;
