@@ -29,6 +29,34 @@
 
 /* header */
 
+header .title {
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+  color: #fafafa;
+  background-color: #455a64;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+header .show-page {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header .show-page img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  width: 4rem;
+}
+
 
 /* end header */
 
