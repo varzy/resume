@@ -4,13 +4,18 @@
  * public style
  */
 
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto-Regular.ttf);
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
   font-size: 1.4rem;
-  font-family: -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", sans-serif, Meiryo;
+  font-family: "roboto", sans-serif;
   color: #222;
 }
 
