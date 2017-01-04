@@ -11,6 +11,6 @@
 
 ## 参考资料
 
-### Google Material Design 正體中文版
+### Google Material Design 中文版
 
 <https://seanchen0617.gitbooks.io/google-material-design-traditional-chinese/content/style-color.html>
