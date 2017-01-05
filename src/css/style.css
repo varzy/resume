@@ -59,7 +59,7 @@ header nav ul li {
 
 header .show-page {
   text-align: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 header .show-page img {
@@ -68,9 +68,17 @@ header .show-page img {
   -o-border-radius: 99%;
   -ms-border-radius: 99%;
   border-radius: 99%;
-  border: 3px solid #fafafa;
-  /* FIXME */
-  width: 4rem;
+  border: 5px solid #fff;
+  width: 20rem;
+}
+
+header .show-page h1 {
+  padding: 3rem 0;
+  font-size: 6rem;
+}
+
+header .show-page em {
+  font-size: 2.4rem;
 }
 
 
@@ -85,6 +93,7 @@ header .show-page img {
 
 .mainbody .module .title {
   text-align: center;
+  padding-bottom: 1.6rem;
 }
 
 .mainbody .module .title hr {
