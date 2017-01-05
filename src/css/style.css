@@ -111,12 +111,23 @@ header .show-page em {
   background-color: #333;
 }
 
-.mainbody .skill .sub-module .sub-title-inner {
-  width: 90%;
+.mainbody .skill .sub-title h3 {
+  padding-left: 1.4rem;
+}
+
+.mainbody .skill .sub-module .chart-inner-frontend {
   box-sizing: border-box;
-  padding-left: 2rem;
   /* FIXME */
   background-color: #ccc;
+  border-left: 10px solid #6cf;
+}
+
+.mainbody .skill .sub-module .skill-html {
+  width: 90%;
+}
+
+.mainbody .skill .sub-module .skill-css {
+  width: 86%;
 }
 
 
