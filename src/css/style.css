@@ -9,7 +9,7 @@
     width: 960px;
   }
   /* FIXME */
-  header .title {
+  header .page-title {
     padding: 1.4rem;
   }
 }
@@ -18,7 +18,7 @@
   .wrap {
     width: 100%;
   }
-  header .title {
+  header .page-title {
     padding: 1rem 2rem;
   }
 }
@@ -40,7 +40,7 @@ body {
 
 /* header */
 
-header .title {
+header .page-title {
   box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
   color: #fafafa;
   background-color: #455a64;
@@ -79,7 +79,7 @@ header .show-page img {
 
 /* .mainbody */
 
-.mainbody section .sub-title {
+.mainbody section .title {
   text-align: center;
 }
 
