@@ -79,8 +79,18 @@ header .show-page img {
 
 /* .mainbody */
 
-.mainbody section .title {
+.mainbody .module {
+  padding: 2rem;
+}
+
+.mainbody .module .title {
   text-align: center;
+}
+
+.mainbody .module .title hr {
+  width: 3rem;
+  height: 0.2rem;
+  border: 0;
 }
 
 
