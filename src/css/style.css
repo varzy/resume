@@ -9,7 +9,7 @@
     width: 960px;
   }
   /* FIXME */
-  header .title {
+  header .page-title {
     padding: 1.4rem;
   }
 }
@@ -18,7 +18,7 @@
   .wrap {
     width: 100%;
   }
-  header .title {
+  header .page-title {
     padding: 1rem 2rem;
   }
 }
@@ -40,7 +40,7 @@ body {
 
 /* header */
 
-header .title {
+header .page-title {
   box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
   color: #fafafa;
   background-color: #455a64;
@@ -59,7 +59,7 @@ header nav ul li {
 
 header .show-page {
   text-align: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 header .show-page img {
@@ -68,9 +68,17 @@ header .show-page img {
   -o-border-radius: 99%;
   -ms-border-radius: 99%;
   border-radius: 99%;
-  border: 3px solid #fafafa;
-  /* FIXME */
-  width: 4rem;
+  border: 5px solid #fff;
+  width: 20rem;
+}
+
+header .show-page h1 {
+  padding: 3rem 0;
+  font-size: 6rem;
+}
+
+header .show-page em {
+  font-size: 2.4rem;
 }
 
 
@@ -79,8 +87,47 @@ header .show-page img {
 
 /* .mainbody */
 
-.mainbody section .sub-title {
+.mainbody .module {
+  padding: 2rem;
+}
+
+.mainbody .module .title {
   text-align: center;
+  padding-bottom: 1.6rem;
+}
+
+.mainbody .module .title hr {
+  width: 3rem;
+  height: 0.2rem;
+  border: 0;
+}
+
+.mainbody .skill .sub-module .sub-title {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  box-sizing: border-box;
+  /* FIXME */
+  background-color: #333;
+}
+
+.mainbody .skill .sub-title h3 {
+  padding-left: 1.4rem;
+}
+
+.mainbody .skill .sub-module .chart-inner-frontend {
+  box-sizing: border-box;
+  /* FIXME */
+  background-color: #ccc;
+  border-left: 10px solid #6cf;
+}
+
+.mainbody .skill .sub-module .skill-html {
+  width: 90%;
+}
+
+.mainbody .skill .sub-module .skill-css {
+  width: 86%;
 }
 
 
