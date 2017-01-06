@@ -102,6 +102,9 @@ header .show-page em {
   border: 0;
 }
 
+
+/* .skill */
+
 .mainbody .skill .sub-module .sub-title {
   width: 100%;
   height: 3rem;
@@ -115,6 +118,9 @@ header .show-page em {
   padding-left: 1.4rem;
 }
 
+
+/* skill type */
+
 .mainbody .skill .sub-module .chart-inner-frontend {
   box-sizing: border-box;
   /* FIXME */
@@ -122,13 +128,36 @@ header .show-page em {
   border-left: 10px solid #6cf;
 }
 
-.mainbody .skill .sub-module .skill-html {
+.mainbody .skill .sub-module .chart-inner-frame {
+  box-sizing: border-box;
+  /* FIXME */
+  background-color: #ccc;
+  border-left: 10px solid #123dcf;
+}
+
+
+/* end skill type */
+
+
+/* skill inner width */
+
+.mainbody .skill .skill-html-css {
   width: 90%;
 }
 
-.mainbody .skill .sub-module .skill-css {
+.mainbody .skill .skill-js {
   width: 86%;
 }
+
+.mainbody .skill .skill-nodejs {
+  width: 70%;
+}
+
+
+/* end skill inner width */
+
+
+/* end .skill */
 
 
 /* end .mainbody */
