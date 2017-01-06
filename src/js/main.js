@@ -4,7 +4,7 @@ window.onload = function () {
 
   for (var i = 0; i < aSkillSubModule.length; i++) {
     aSkillSubModule[i].index = i;
-    aSkillSubModule[i].onclick = function () {
+    aSkillSubModule[i].onmouseover = function () {
       switch (this.index) {
         case 0:
 
