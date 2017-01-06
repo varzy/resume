@@ -129,14 +129,16 @@ header .show-page em {
   border-left: 10px solid #123dcf;
 }
 
-.mainbody .skill .sub-module .skill-html {
+.mainbody .skill .sub-module .skill-html-css {
   width: 90%;
 }
 
-.mainbody .skill .sub-module .skill-css {
+.mainbody .skill .sub-module .skill-js {
   width: 86%;
 }
-
+.mainbody .skill .sub-module .skill-nodejs {
+  width: 70%;
+}
 
 /* end .mainbody */
 
