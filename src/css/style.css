@@ -122,6 +122,13 @@ header .show-page em {
   border-left: 10px solid #6cf;
 }
 
+.mainbody .skill .sub-module .chart-inner-frame {
+  box-sizing: border-box;
+  /* FIXME */
+  background-color: #ccc;
+  border-left: 10px solid #123dcf;
+}
+
 .mainbody .skill .sub-module .skill-html {
   width: 90%;
 }
