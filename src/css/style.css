@@ -102,6 +102,9 @@ header .show-page em {
   border: 0;
 }
 
+
+/* .skill */
+
 .mainbody .skill .sub-module .sub-title {
   width: 100%;
   height: 3rem;
@@ -129,16 +132,27 @@ header .show-page em {
   border-left: 10px solid #123dcf;
 }
 
-.mainbody .skill .sub-module .skill-html-css {
+
+/* skill inner width */
+
+.mainbody .skill .skill-html-css {
   width: 90%;
 }
 
-.mainbody .skill .sub-module .skill-js {
+.mainbody .skill .skill-js {
   width: 86%;
 }
-.mainbody .skill .sub-module .skill-nodejs {
+
+.mainbody .skill .skill-nodejs {
   width: 70%;
 }
+
+
+/* end skill inner width */
+
+
+/* end .skill */
+
 
 /* end .mainbody */
 
