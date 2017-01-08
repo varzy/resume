@@ -121,6 +121,10 @@ header .show-page em {
 
 /* skill type */
 
+.mainbody .skill .sub-module .sub-detail {
+  padding-top: 1rem;
+}
+
 .mainbody .skill .sub-module .chart-inner-frontend {
   box-sizing: border-box;
   /* FIXME */
