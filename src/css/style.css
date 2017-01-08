@@ -125,6 +125,10 @@ header .show-page em {
   padding-top: 1rem;
 }
 
+.mainbody .skill .sub-module .sub-detail li {
+  padding: 0.4rem 0;
+}
+
 .mainbody .skill .sub-module .chart-inner-frontend {
   box-sizing: border-box;
   /* FIXME */
