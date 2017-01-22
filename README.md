@@ -1,6 +1,6 @@
 # zy's Resume
 
-这里是 **赵越** 的个人简历说明页面。如果你想要查看我的详细简历，请前往 <http:/varzy.me/resume/> 。
+这里是 **赵越** 的个人简历说明页面。如果你想要查看我的详细简历，请前往 <http:/varzy.me/zyResume/> 。
 
 ## 联系方式 | Contact Me
 
