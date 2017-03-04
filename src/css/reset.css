@@ -108,7 +108,8 @@ h3 {
 
 /* clearfix */
 
-.cf:before, .cf:after {
+.cf:before,
+.cf:after {
   content: "";
   display: table;
 }
