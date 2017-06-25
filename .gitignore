@@ -4,6 +4,9 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.idea/*
 
-node_modules
-dist
+# packages
+node_modules/*
+vendor/*
+dist/*
