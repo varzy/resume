@@ -29,6 +29,10 @@ module.exports = {
           presets: ['env'],
           plugins: ['transform-runtime']
         }
+      },
+      {
+        test: /\.json$/,
+        use: 'json-loader'
       }
     ]
   },

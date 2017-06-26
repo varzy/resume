@@ -3,15 +3,12 @@ html {
   color: #222;
 }
 
-// ul {
-//   margin: 0;
-//   padding: 0;
-// }
-// ul li {
-//   list-style: none;
-// }
 a {
   text-decoration: none;
+}
+
+.card {
+  background-color: #fafafa;
 }
 
 .no-list-style {
@@ -24,8 +21,4 @@ a {
 
 .no-padding {
   padding: 0;
-}
-
-.card {
-  background-color: #fafafa;
 }

@@ -1,5 +1,12 @@
 body {
   background-color: #f5f5f5;
+  position: relative;
+}
+
+nav.nav {
+  position: absolute;
+  right: 0;
+  font-size: 1.6rem;
 }
 
 header {
