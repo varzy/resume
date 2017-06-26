@@ -10,4 +10,11 @@ require("../scss/style.scss");
 /**
  * js part
  */
+const Vue = require("vue");
 require("./main");
+
+Vue.component("sub-skill", require("./components/sub-skill.vue"));
+
+new Vue({
+  el: "#app"
+});

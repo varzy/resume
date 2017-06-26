@@ -47,10 +47,6 @@ header {
   }
   .skill {
     .sub-skill {
-      //padding-bottom: 1.6rem;
-      &:last-child {
-        padding-bottom: 0;
-      }
       .progress {
         width: 100%;
         height: 3.2rem;

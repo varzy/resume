@@ -17,6 +17,10 @@
     "normalize.css": "^7.0.0",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.2",
+    "vue": "^2.3.4",
+    "vue-loader": "^12.2.1",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.4",
     "webpack": "^3.0.0",
     "wingcss": "^1.0.0-beta"
   },

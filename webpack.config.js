@@ -33,11 +33,17 @@ module.exports = {
       {
         test: /\.json$/,
         use: 'json-loader'
+      },
+      {
+        test: /\.vue$/,
+        loader: "vue-loader"
       }
     ]
   },
   resolve: {
-    extensions: ['.json', '.js', '.jsx', '.css']
+    extensions: ['.json', '.js', '.jsx', '.css'],
+    alias: {
+      'vue$': 'vue/dist/vue.common.js'
+    }
   }
-
 };

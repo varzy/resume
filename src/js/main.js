@@ -2,7 +2,7 @@
  * include libs
  * @type {jQuery}
  */
-const $ = require("jquery");
+// const $ = require("jquery");
 
 /**
  * main part
