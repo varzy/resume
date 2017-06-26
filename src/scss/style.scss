@@ -27,12 +27,6 @@ header {
 }
 
 .main {
-  .card a:link, .card a:visited {
-    color: #111;
-  }
-  .card a:hover {
-    color: #444;
-  }
   .info {
     ul li {
       list-style: none;
@@ -53,10 +47,7 @@ header {
   }
   .skill {
     .sub-skill {
-      padding-bottom: 2.4rem;
-      & .words {
-        padding-top: 1.2rem;
-      }
+      //padding-bottom: 1.6rem;
       &:last-child {
         padding-bottom: 0;
       }
@@ -70,10 +61,18 @@ header {
           line-height: 3.2rem;
           background-color: #444;
           .skill-name {
-            font-size: 2.2rem;
+            font-size: 2rem;
             padding-left: 3.2rem;
           }
         }
+      }
+      .words {
+        padding-top: 1.2rem;
+        padding-left: 1.2rem;
+        li {
+          margin-bottom: 0.2rem;
+        }
+
       }
     }
     .sub-skill-php .progress .inner {
@@ -84,6 +83,15 @@ header {
     }
     .sub-skill-js .progress .inner {
       width: 70%;
+    }
+    .sub-skill-git-svn .progress .inner {
+      width: 86%;
+    }
+    .sub-skill-linux .progress .inner {
+      width: 60%;
+    }
+    .sub-skill-others .progress .inner {
+      width: 50%;
     }
   }
 

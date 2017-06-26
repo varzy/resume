@@ -1,10 +1,25 @@
 html {
-  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  color: #222;
+  font-family: "Segoe UI", sans-serif;
+  color: #202020;
 }
 
-a {
+h1, h2, h3, h4, h5, h6 {
+  //font-family: -apple-system, "Segoe UI", BlinkMacSystemFont, Avenir, "Avenir Next", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 200;
+}
+
+.container {
+  max-width: 800px;
+}
+
+a:link, a:visited {
+  color: #111;
   text-decoration: none;
+}
+
+a:hover {
+  color: #104cfb;
 }
 
 .card {

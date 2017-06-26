@@ -41,9 +41,10 @@
 <!-- header -->
 <header class="container full-screen">
   <div class="page-header text-center">
-    <img src="./img/avatar.png" alt="x" class="avatar">
-    <h1 id="name"></h1>
-    <em id="intro"></em>
+    <!-- ! TODO: replace to true avatar -->
+    <img src="./img/avatar_zy.png" alt="avatar" class="avatar">
+    <h1>赵 越</h1>
+    <em>A curiosity Geeker, a romantic virgo, a true coder, a nice guy.</em>
   </div>
 </header>
 <!-- end header -->
@@ -58,17 +59,18 @@
       <div class="col no-margin no-padding">
         <ul class="left text-right">
           <li>姓 名</li>
-          <li>性 别</li>
-          <li>就读院校</li>
+          <li>毕业院校</li>
           <li>专 业</li>
           <li>期望职位</li>
+          <li>期望薪资</li>
+
         </ul>
         <ul class="right text-left">
           <li>赵 越</li>
-          <li>男</li>
           <li>河南师范大学</li>
-          <li>计算机科学与技术</li>
-          <li>phper</li>
+          <li>本科 | 计算机科学与技术</li>
+          <li>全职 phper</li>
+          <li>10K</li>
         </ul>
       </div>
       <div class="col no-margin no-padding">
@@ -80,62 +82,93 @@
           <li>Blog</li>
         </ul>
         <ul class="right text-left">
-          <li>i@zyis.me</li>
+          <li><a href="mailto:i@zyis.me">i@zyis.me</a></li>
           <li>+86 155 65252 2838</li>
           <li>zxyy63630</li>
-          <li>varzy</li>
-          <li>varzy.me</li>
+          <li><a href="https://github.com/varzy" target="_blank">github.com/varzy</a>
+          </li>
+          <li><a href="http://varzy.me" target="_blank">varzy.me</a></li>
         </ul>
       </div>
     </div>
   </section>
   <!-- end info -->
 
-  <!-- expect -->
-  <section class="expect">
-    <h2 class="title">EXPECT</h2>
-    <div class="show">
-      <ul>
-        <li>技术氛围良好</li>
-        <li>轻松愉悦的环境</li>
-        <li>大牛围绕</li>
-        <li>能真正打动我的产品</li>
-      </ul>
-    </div>
-  </section>
-  <!-- end expect -->
-
   <!-- skill -->
   <section class="skill">
     <h2 class="title">SKILL</h2>
     <div class="show">
+
       <div class="sub-skill sub-skill-php">
         <div class="progress">
           <div class="inner"><em class="skill-name">PHP</em></div>
         </div>
-        <div class="words">
-          熟练掌握 HTML & CSS ，能够编排较为复杂的页面布局。熟悉移动开发，能制作普适目前主流设备的自适应方案。 能够熟练使用各种前端框架和
-          JS 库，如 jQuery 和 Bootstrap 等 。 理解 W3C 标准，代码符合 HTML
-          语义化，利于 seo 优化。对用户体验有独到见解，了解不同浏览器的兼容性问题，并能给出行之有效的优化方案。
-        </div>
+        <ul class="words">
+          <li>掌握 PHP 基本语法，深入理解 OOP 编程思想，并了解 PHP7 的新语法和新特性</li>
+          <li>掌握 SQL 语法，能够熟练操作 MySQL 等数据库，并且能对数据的操作进行性能优化</li>
+          <li>能够使用 ThinkPHP3, Laravel 等框架快速开发项目</li>
+          <li>熟悉 HTTP 协议和网络数据传输原理，能够通过 AJAX 技术实现对 XML 和 json 数据的处理</li>
+          <li>能够熟练使用依赖管理工具 composer</li>
+          <li>掌握 memcache 等技术，能够对程序运行的效率进行优化</li>
+        </ul>
       </div>
 
       <div class="sub-skill sub-skill-html-css">
         <div class="progress">
           <div class="inner"><em class="skill-name">HTML & CSS</em></div>
         </div>
-        <div class="words">
-          具备一定的数据结构、算法、计算机网络、操作系统知识。 能够熟练使用各种前端框架和 JS 库，如 jQuery 和 Bootstrap 等 。
-        </div>
+        <ul class="words">
+          <li>熟练掌握 HTML 和 CSS，能够布局较为复杂的静态页面</li>
+          <li>掌握 SCSS 语法，并能将其与 Webpack 等工具进行结合开发</li>
+          <li>了解现代前端开发模式，能够熟练使用 npm / yarn 等依赖管理工具</li>
+          <li>掌握多种前端框架，如 Bootstrap, Amaze UI, Element 等</li>
+        </ul>
       </div>
 
       <div class="sub-skill sub-skill-js">
         <div class="progress">
           <div class="inner"><em class="skill-name">JS</em></div>
         </div>
-        <div class="words">
-          熟练掌握 gulp 掌握 npm 的使用
+        <ul class="words">
+          <li>了解 JS 运行机制</li>
+          <li>熟悉 ES6 语法，并了解将 ES6 语法转为强兼容性 JS 的方案</li>
+          <li>能够熟练使用多种 JS 框架，如 jQuery, Vue.js。能够使用 Vue.js 构建 SPA</li>
+          <li>熟悉 Webpack, Gulp 等前端模块化处理工具，能够有效改进前端工作流</li>
+        </ul>
+      </div>
+
+      <div class="sub-skill sub-skill-git-svn">
+        <div class="progress">
+          <div class="inner"><em class="skill-name">Git & SVN</em></div>
         </div>
+        <ul class="words">
+          <li>日常使用 Git 作为版本控制工具，掌握绝大部分常用 Git 指令，对 Git 的工作模式有深刻理解</li>
+          <li>了解 Git Flow 工作模式</li>
+          <li>能够使用 SVN 作为版本控制工具</li>
+        </ul>
+      </div>
+
+      <div class="sub-skill sub-skill-linux">
+        <div class="progress">
+          <div class="inner"><em class="skill-name">Linux</em></div>
+        </div>
+        <ul class="words">
+          <li>熟悉常用 Linux 命令</li>
+          <li>了解多种常用的 Linux 发行版，具有服务器部署经验</li>
+          <li>能够使用 SVN 作为版本控制工具</li>
+        </ul>
+      </div>
+
+      <div class="sub-skill sub-skill-others">
+        <div class="progress">
+          <div class="inner"><em class="skill-name">Others</em></div>
+        </div>
+        <ul class="words">
+          <li>习惯使用 VSCode 和 PHPStorm 进行项目开发</li>
+          <li>习惯使用英文操作系统和英文软件，能够无障碍读写英文文章</li>
+          <li>掌握“穿墙”技能，能够无障碍使用 Google, Github, Stack Overflow 等技术网站</li>
+          <li>熟悉 Web 安全方面知识，了解 SQL 注入、XSS 攻击等，并能够对其进行防范</li>
+        </ul>
       </div>
 
     </div>
@@ -152,13 +185,13 @@
           <h5 class="card-header">finch</h5>
           <p class="card-body">
             Perhaps the easiest, the lightest, and the most readable php
-            framework.
+            framework. Has been open source on Github.
           </p>
           <div class="card-footer center text-center">
             <p>
               <button class='outline'>
                 <a href="https://github.com/varzy/finch"
-                   target="_blank">Github</a>
+                   target="_blank">Go to repository</a>
               </button>
             </p>
           </div>
@@ -167,14 +200,14 @@
         <div class="card">
           <h5 class="card-header">Scaffold_TP3</h5>
           <p class="card-body">
-            A front-end-scaffold build by ThinkPHP 3, Vue.js
-            and webpack.
+            A project scaffold build by ThinkPHP 3, Vue.js
+            and webpack. Has been open source on Github.
           </p>
           <div class="card-footer center text-center">
             <p>
               <button class='outline'>
                 <a href="https://github.com/varzy/Scaffold_TP3"
-                   target="_blank">Github</a>
+                   target="_blank">Go to repository</a>
               </button>
             </p>
           </div>
@@ -182,12 +215,14 @@
 
         <div class="card">
           <h5 class="card-header">PMDR</h5>
-          <p class="card-body">Content</p>
+          <p class="card-body">
+            A pomodoro.
+          </p>
           <div class="card-footer center text-center">
             <p>
               <button class='outline'>
                 <a href="https://github.com/varzy/Scaffold_TP3"
-                   target="_blank">Github</a>
+                   target="_blank">Go to homepage</a>
               </button>
             </p>
           </div>
@@ -195,12 +230,14 @@
 
         <div class="card">
           <h5 class="card-header">PMDR</h5>
-          <p class="card-body">Content</p>
+          <p class="card-body">
+            My personal blog, based on Hexo.
+          </p>
           <div class="card-footer center text-center">
             <p>
               <button class='outline'>
-                <a href="https://github.com/varzy/Scaffold_TP3"
-                   target="_blank">Github</a>
+                <a href="http://varzy.me"
+                   target="_blank">Go to my blog</a>
               </button>
             </p>
           </div>
@@ -215,23 +252,22 @@
   <section class="self-feel">
     <h2 class="title">SELF-FEEL</h2>
     <div class="show">
+      <p>
+        <strong>A Curiosity Geeker. </strong>充满好奇心的极客。乐于接受新知识和新技术，喜欢折腾各种软件。善于使用各种能提升工作幸福感的生产力工具。
+      </p>
 
-      <p>A Curiosity Geeker. 喜欢折腾各种软件，乐于接受新知识、新事物。
-        善于使用各种能提升工作幸福感的生产力工具。
-        执行力高，不喜欢拖拖拉拉。喜欢新东西，对 webpack, node.js 等内容都有了解。</p>
+      <p>
+        <strong>A romantic virgo. </strong>喜欢整洁的桌面，优雅的代码和喜欢一目了然的注释。重度代码格式化控。写前端时容不得一个像素的偏差，写后端时力求“最优解”。信奉
+        Tim Peters 的代码哲学。
+      </p>
 
-      <p>A romantic virgo. 喜欢整洁的桌面，喜欢工整的代码，喜欢一目了然的注释
-        重度代码格式化控
-        容不得一个像素的偏差，更容不得 “差不多” 这种说法，要做，便做 “最优解”
-        喜欢书写优雅的代码，信奉优雅的代码哲学，尽量使代码每行不超过 80 字符，嵌套不超过 3 层。</p>
+      <p>
+        <strong>A true coder. </strong>热爱编程，善于思考，有较强的自学能力。喜欢解决问题后获得的成就感。懂得抬头看天空，更懂得低头敲键盘。
+      </p>
 
-      <p>A honest coder. 热爱编程，善于思考，有较强的自学能力
-        喜欢解决问题后获得的成就感
-        懂得抬头看天空，更懂得低头敲键盘。</p>
-
-      <p>A nice guy. 正版主义者
-        开源主义者
-        轻松随和，易相处</p>
+      <p>
+        <strong>A nice guy. </strong>正版主义者，开源主义者。性格开朗大方，易相处，面对姑娘时也许会羞涩。执行力高，不喜欢拖拖拉拉。
+      </p>
     </div>
   </section>
   <!--end self-feel-->
