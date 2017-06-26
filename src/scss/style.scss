@@ -6,17 +6,16 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.page-header {
-  .avatar {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    width: 20rem;
+  .page-header {
+    .avatar {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -o-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      border: .5rem solid #fff;
+      width: 20rem;
+    }
   }
 }
 
@@ -36,10 +35,10 @@ header {
       display: inline-block;
       box-sizing: border-box;
       text-align: right;
-      padding-right: 16px;
+      padding-right: 1.6rem;
     }
     .right {
-      padding-left: 16px;
+      padding-left: 1.6rem;
       width: 65%;
       display: inline-block;
       box-sizing: border-box;
@@ -47,24 +46,25 @@ header {
   }
   .skill {
     .sub-skill {
-      padding-bottom: 24px;
+      padding-bottom: 2.4rem;
       & .words {
-        padding-top: 12px;
+        padding-top: 1.2rem;
       }
       &:last-child {
         padding-bottom: 0;
       }
       .progress {
         width: 100%;
-        height: 32px;
-        background-color: #333333;
+        height: 3.2rem;
+        background-color: #e1e1e1;
         .inner {
-          height: 32px;
-          line-height: 32px;
-          background-color: #cccccc;
+          color: #fafafa;
+          height: 3.2rem;
+          line-height: 3.2rem;
+          background-color: #444;
           .skill-name {
-            font-size: 22px;
-            padding-left: 32px;
+            font-size: 2.2rem;
+            padding-left: 3.2rem;
           }
         }
       }
@@ -83,5 +83,5 @@ header {
 }
 
 footer {
-  padding-bottom: 180px;
+  padding-bottom: 8rem;
 }

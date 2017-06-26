@@ -1,10 +1,10 @@
 /* TEAM */
 
   Developer: zy
-  Contact: varzy@live.com
+  Contact: i@zyis.me
   Blog: http://varzy.me
   From: LuoYang, HeNan, China
-  Location: XinXiang, HeNan, China
+  Location: BeiJing, China
   University: Henan Normal University
 
 /* THANKS */
@@ -12,23 +12,32 @@
   Github.com
   Site: https://github.com
 
+  humans.txt
+  Site: http://www.humanstxt.org.cn/
+
   Normalize.css
   Site: https://necolas.github.io/normalize.css/
 
-  humans.txt
-  Site: http://www.humanstxt.org.cn/
+  Wingcss
+  Site: http://usewing.ml/
+
+  Webpack
+  Site: https://webpack.github.io/
 
   Visual Studio Code
   Site: https://code.visualstudio.com
 
+  JetBrains PHPStorm
+  Site: https://www.jetbrains.com/phpstorm/
+
 /* SITE */
 
-  Last update: 2016/12/04
-  Language: Chinese
+  Last update: 06/26/2017
+  Language: Chinese, English
   Doctype: HTML5
-  Standards: HTML5, CSS3
+  Standards: HTML5, CSS3, ECMAScript
   Deployment: Git, Github
-  IDE: Visual Studio Code
+  IDE: Visual Studio Code, JetBrains PHPStorm
 
 
     __  ___          __        __                        
