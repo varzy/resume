@@ -3,29 +3,6 @@ body {
   position: relative;
 }
 
-nav.nav {
-  position: absolute;
-  right: 0;
-  font-size: 1.6rem;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .page-header {
-    .avatar {
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -o-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%;
-      border: .5rem solid #fff;
-      width: 20rem;
-    }
-  }
-}
-
 .main {
   .info {
     ul li {

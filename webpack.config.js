@@ -37,6 +37,15 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: "vue-loader"
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+        loader: 'file-loader',
+        query: {
+          name: '[name].[ext]',
+          outputPath: './img/',
+          publicPath: ''
+        }
       }
     ]
   },

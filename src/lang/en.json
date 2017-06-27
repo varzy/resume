@@ -1,8 +1,82 @@
 {
   "header": {
-    "name": "Aiden Zhao",
-    "intro": "A geeker, a virgo, a coder."
+    "myName": "赵 越",
+    "simpleIntro": "A geeker, a virgo, a coder."
   },
-  "main": {},
-  "footer": {}
+  "main": {
+    "info": {
+    },
+    "skill": [
+      {
+        "skillName": "PHP",
+        "progressprogressWidth": "90",
+        "words": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "1",
+          "2",
+          "3",
+          "4",
+          "1",
+          "2",
+          "3",
+          "4",
+          "能够熟练使用依赖管理工具 composer",
+          "掌握 memcache 等技术，能够对程序运行的效率进行优化"
+        ]
+      },
+      {
+        "skillName": "HTML & CSS",
+        "progressWidth": "80",
+        "words": [
+          "熟练掌握 HTML 和 CSS，能够布局较为复杂的静态页面",
+          "掌握 SCSS 语法，并能将其与 Webpack 等工具进行结合开发",
+          "了解现代前端开发模式，能够熟练使用 npm / yarn 等依赖管理工具",
+          "掌握多种前端框架，如 Bootstrap, Amaze UI, Element 等"
+        ]
+      },
+      {
+        "skillName": "Javascript",
+        "progressWidth": "70",
+        "words": [
+          "了解 JS 运行机制",
+          "熟悉 ES6 语法，并了解将 ES6 语法转为强兼容性 JS 的方案",
+          "能够熟练使用多种 JS 框架，如 jQuery, Vue.js。能够使用 Vue.js 构建 SPA",
+          "熟悉 Webpack, Gulp 等前端模块化处理工具，能够有效改进前端工作流"
+        ]
+      },
+      {
+        "skillName": "Git & SVN",
+        "progressWidth": "86",
+        "words": [
+          "日常使用 Git 作为版本控制工具，掌握绝大部分常用 Git 指令，对 Git 的工作模式有深刻理解",
+          "了解 Git Flow 工作模式",
+          "能够使用 SVN 作为版本控制工具"
+        ]
+      },
+      {
+        "skillName": "Linux",
+        "progressWidth": "66",
+        "words": [
+          "熟悉常用 Linux 命令",
+          "了解多种常用的 Linux 发行版，具有服务器部署经验",
+          "能够使用 SVN 作为版本控制工具"
+        ]
+      },
+      {
+        "skillName": "Others",
+        "progressWidth": "50",
+        "words": [
+          "习惯使用 VSCode 和 PHPStorm 进行项目开发",
+          "习惯使用英文操作系统和英文软件，能够无障碍读写英文文章",
+          "掌握“穿墙”技能，能够无障碍使用 Google, Github, Stack Overflow 等技术网站",
+          "熟悉 Web 安全方面知识，了解 SQL 注入、XSS 攻击等，并能够对其进行防范"
+        ]
+      }
+    ]
+  },
+  "footer": {
+  }
 }

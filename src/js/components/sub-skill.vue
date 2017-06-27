@@ -45,14 +45,17 @@
 
 
 <script>
-  let cn = require("../../lang/cn.json");
-  let skillsObj = cn.main.skill;
   export default{
     data(){
       return {
-        skills: skillsObj
+        skills: this.getSkills(),
+      }
+    },
+    methods: {
+      getSkills(){
+        let lang = require("../../lang/" + this.$store.state.currentLang + ".json");
+        return lang.main.skill;
       }
     }
-
   }
 </script>
