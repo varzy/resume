@@ -5,10 +5,10 @@ const path = require('path');
 
 module.exports = {
   devtool: "sourcemap",
-  context: __dirname + "/src",
-  entry: './js/_entry.js',
+  // context: __dirname + "/src",
+  entry: './src/js/_entry.js',
   output: {
-    path: path.resolve(__dirname, 'src/dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: './bundle.js',
   },
   module: {

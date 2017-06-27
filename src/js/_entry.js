@@ -30,6 +30,7 @@ const store = new Vuex.Store({
 
 Vue.component("nav-bar", require("./components/nav-bar.vue"));
 Vue.component("page-header", require("./components/page-header.vue"));
+Vue.component("sub-info", require("./components/sub-info.vue"));
 Vue.component("sub-skill", require("./components/sub-skill.vue"));
 
 const app = new Vue({

@@ -1,11 +1,18 @@
 {
   "header": {
     "myName": "赵 越",
-    "simpleIntro": "A geeker, a virgo, a coder."
+    "simpleIntro": "A curiosity Geeker, a romantic virgo, a true coder, a nice guy."
   },
   "main": {
-    "info": {
-    },
+    "info": [
+      {
+        "name": "赵 越",
+        "gender": "男",
+        "profession": "本科 | 计算机科学与技术",
+        "dreamPosition": "phper"
+      },
+      {}
+    ],
     "skill": [
       {
         "skillName": "PHP",

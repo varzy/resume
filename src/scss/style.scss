@@ -4,24 +4,7 @@ body {
 }
 
 .main {
-  .info {
-    ul li {
-      list-style: none;
-    }
-    .left {
-      width: 33.333333333%;
-      display: inline-block;
-      box-sizing: border-box;
-      text-align: right;
-      padding-right: 1.6rem;
-    }
-    .right {
-      padding-left: 1.6rem;
-      width: 65%;
-      display: inline-block;
-      box-sizing: border-box;
-    }
-  }
+
   .skill {
     .sub-skill {
       .progress {
