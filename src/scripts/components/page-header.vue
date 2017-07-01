@@ -37,12 +37,13 @@
     data(){
       return {
         headerInfo: this.getHeaderInfo(),
-        avatar: require("../../img/avatar_zy.png")
+        avatar: require("../../images/avatar_zy.png")
       }
     },
     methods: {
       getHeaderInfo(){
-        let lang = require("../../lang/" + this.$store.state.currentLang + ".json");
+        let lang = require("../../lang/" + this.$store.state.currentLang +
+          ".json");
         return lang.header;
       }
     }

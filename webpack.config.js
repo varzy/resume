@@ -2,14 +2,16 @@
 
 const webpack = require("webpack");
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   devtool: "sourcemap",
   // context: __dirname + "/src",
-  entry: './src/js/_entry.js',
+  entry: './src/scripts/_entry.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: './bundle.js',
+    filename: './bundle_[chunkhash].js',
   },
   module: {
     loaders: [
@@ -54,5 +56,16 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.common.js'
     }
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, './src/views/index.html'),
+      filename: './index.html'
+    }),
+    new CleanWebpackPlugin(['dist'], {
+      root: '',
+      verbose: true,
+      dry: false
+    })
+  ]
 };

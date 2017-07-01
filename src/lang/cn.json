@@ -4,15 +4,52 @@
     "simpleIntro": "A curiosity Geeker, a romantic virgo, a true coder, a nice guy."
   },
   "main": {
-    "info": [
-      {
-        "name": "赵 越",
-        "gender": "男",
-        "profession": "本科 | 计算机科学与技术",
-        "dreamPosition": "phper"
-      },
-      {}
-    ],
+    "info": {
+      "left": [
+        {
+          "key": "姓 名",
+          "val": "赵 越"
+        },
+        {
+          "key": "毕业院校",
+          "val": "河南师范大学"
+        },
+        {
+          "key": "专 业",
+          "val": "本科 | 计算机科学与技术"
+        },
+        {
+          "key": "期望职位",
+          "val": "全职 phper"
+        },
+        {
+          "key": "期望薪资",
+          "val": "10K"
+        }
+      ],
+      "right": [
+        {
+          "key": "Email",
+          "val": "i@zyis.me"
+        },
+        {
+          "key": "Phone",
+          "val": "+86 155 65252 2838"
+        },
+        {
+          "key": "Wechat",
+          "val": "zxyy63630"
+        },
+        {
+          "key": "Github",
+          "val": "github.com/varzy"
+        },
+        {
+          "key": "Blog",
+          "val": "varzy.me"
+        }
+      ]
+    },
     "skill": [
       {
         "skillName": "PHP",
@@ -71,7 +108,8 @@
           "习惯使用 VSCode 和 PHPStorm 进行项目开发",
           "习惯使用英文操作系统和英文软件，能够无障碍读写英文文章",
           "掌握“穿墙”技能，能够无障碍使用 Google, Github, Stack Overflow 等技术网站",
-          "熟悉 Web 安全方面知识，了解 SQL 注入、XSS 攻击等，并能够对其进行防范"
+          "熟悉 Web 安全方面知识，了解 SQL 注入、XSS 攻击等，并能够对其进行防范",
+          "能够熟练使用 Vagrant"
         ]
       }
     ]
