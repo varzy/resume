@@ -112,6 +112,20 @@
           "能够熟练使用 Vagrant"
         ]
       }
+    ],
+    "project": [
+      {
+        "name": "finch",
+        "intro": "A project scaffold build by ThinkPHP 3, Vue.js and webpack. Has been open source on Github.",
+        "link": "https://github.com/varzy/finch",
+        "linkName": "Go to repository"
+      },
+      {
+        "name": "",
+        "intro": "",
+        "link": "",
+        "linkName": "Go to repository"
+      }
     ]
   },
   "footer": {

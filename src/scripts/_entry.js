@@ -32,6 +32,7 @@ Vue.component("nav-bar", require("./components/nav-bar.vue"));
 Vue.component("page-header", require("./components/page-header.vue"));
 Vue.component("sub-info", require("./components/sub-info.vue"));
 Vue.component("sub-skill", require("./components/sub-skill.vue"));
+Vue.component("sub-project",require("./components/sub-project.vue"));
 
 const app = new Vue({
   el: "#app",
