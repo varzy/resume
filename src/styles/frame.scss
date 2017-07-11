@@ -1,0 +1,36 @@
+@import "variables";
+
+// tags
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  color: $color-ink;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $title-font-weight;
+}
+
+// frame
+
+.container {
+  max-width: 80rem !important;
+}
+
+a:link, a:visited {
+  color: $color-link;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-link-hover;
+}
+
+.card {
+  background-color: #fafafa;
+}

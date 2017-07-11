@@ -1,11 +1,11 @@
 {
-  "header": {
+  "pageHeader": {
     "myName": "赵 越",
     "simpleIntro": "A curiosity Geeker, a romantic virgo, a true coder, a nice guy."
   },
   "main": {
-    "info": {
-      "left": [
+    "infos": {
+      "group1": [
         {
           "key": "姓 名",
           "val": "赵 越"
@@ -27,7 +27,7 @@
           "val": "10K"
         }
       ],
-      "right": [
+      "group2": [
         {
           "key": "Email",
           "val": "i@zyis.me"
@@ -50,7 +50,7 @@
         }
       ]
     },
-    "skill": [
+    "skills": [
       {
         "skillName": "PHP",
         "progressprogressWidth": "90",
@@ -113,7 +113,7 @@
         ]
       }
     ],
-    "project": [
+    "projects": [
       {
         "name": "finch",
         "intro": "A project scaffold build by ThinkPHP 3, Vue.js and webpack. Has been open source on Github.",
@@ -121,8 +121,8 @@
         "linkName": "Go to repository"
       },
       {
-        "name": "",
-        "intro": "",
+        "name": "Resume",
+        "intro": "My personal resume.",
         "link": "",
         "linkName": "Go to repository"
       }
