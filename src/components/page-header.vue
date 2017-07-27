@@ -1,5 +1,5 @@
 <template>
-  <header class="full-screen">
+  <header class="full-screen container">
     <div class="text-center">
       <img :src="myAvatar" alt="my avatar" class="avatar">
       <h1>{{ headerInfo.myName }}</h1>
@@ -30,14 +30,14 @@
     name: 'page-header',
     data () {
       return {
-        myAvatar: require('../assets/myAvatar.png'),
+        myAvatar: require('../assets/my_avatar.png'),
         headerInfo: this.getHeaderInfo()
       }
     },
     methods: {
       getHeaderInfo () {
         // ! TODO: fix the require method
-        let lang = require('../lang/cn.json')
+        let lang = require('../lang/cn_old.json')
         return lang.pageHeader
       }
     }

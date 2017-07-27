@@ -1,6 +1,6 @@
 <template>
 
-  <section>
+  <section class="container">
     <h1>SKILL</h1>
     <div>
       <div v-for="skill in skills">
@@ -57,8 +57,8 @@
     },
     methods: {
       getSkills () {
-        let lang = require('../lang/cn.json')
-        return lang.main.skills
+        let lang = require('../lang/cn_old.json')
+        return lang.subSkill
       }
     }
   }

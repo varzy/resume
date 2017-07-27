@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="container">
     <h1>PROJECT</h1>
     <div class="cards">
       <div class="card" v-for="project in projects">
@@ -24,7 +24,7 @@
     },
     methods: {
       getProjects () {
-        let lang = require('../lang/cn.json')
+        let lang = require('../lang/cn_old.json')
         return lang.main.projects
       }
     }

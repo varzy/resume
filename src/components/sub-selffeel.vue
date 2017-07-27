@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="container">
     <h1>SELF FEEL</h1>
 
     <p>

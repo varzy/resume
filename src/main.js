@@ -8,6 +8,10 @@ import './styles/_variables.scss'
 import './styles/frame.scss'
 import './styles/preset.scss'
 
+import global_ from './components/global.vue'
+
+Vue.prototype.GLOBAL = global_
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

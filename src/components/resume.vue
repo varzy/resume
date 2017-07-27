@@ -1,23 +1,14 @@
 <template>
   <div id="app">
-    <nav-bar></nav-bar>
+    <!--<nav-bar></nav-bar>-->
     <page-header></page-header>
-    <div class="container">
-      <sub-info></sub-info>
-      <sub-skill></sub-skill>
-      <sub-project></sub-project>
-      <sub-selffeel></sub-selffeel>
-    </div>
+    <sub-info></sub-info>
+    <sub-skill></sub-skill>
+    <sub-project></sub-project>
+    <sub-selffeel></sub-selffeel>
     <page-footer></page-footer>
   </div>
 </template>
-
-
-<style lang="scss">
-  body {
-    background-color: #f9f9f9;
-  }
-</style>
 
 
 <script>
@@ -29,7 +20,7 @@
   import SubSelffeel from './sub-selffeel.vue'
   import pageFooter from './page-footer.vue'
 
-  export default{
+  export default {
     name: 'Resume',
     components: {
       'nav-bar': NavBar,
@@ -39,6 +30,11 @@
       'sub-skill': SubSkill,
       'sub-selffeel': SubSelffeel,
       'page-footer': pageFooter
+    },
+    data () {
+      return {
+        words: require('../lang/cn_old.json')
+      }
     }
   }
 </script>
