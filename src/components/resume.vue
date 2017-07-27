@@ -15,7 +15,7 @@
 
 <style lang="scss">
   body {
-    background-color: #f5f5f5;
+    background-color: #f9f9f9;
   }
 </style>
 

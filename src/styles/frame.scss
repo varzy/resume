@@ -1,36 +1,131 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
 
 // tags
 
 html {
   font-size: 62.5%;
-}
 
-body {
-  font-size: 1.4rem;
-  color: $color-ink;
-  position: relative;
-}
+  body {
+    font-size: 1.4rem;
+    font-family: 'Inconsolata', 'Microsoft YaHei', 'SimSun', monospace, Serif;
+    position: relative;
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $title-font-weight;
-}
+    // tags
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 200;
+      font-family: 'Bellefair', serif;
+    }
 
-// frame
+    h1 {
+      font-size: $size-regular + 1.6rem;
+    }
 
-.container {
-  max-width: 80rem !important;
-}
+    h2 {
+      font-size: $size-regular + 1.2rem;
+    }
 
-a:link, a:visited {
-  color: $color-link;
-  text-decoration: none;
-}
+    h3 {
+      font-size: $size-regular + .8rem;
+    }
 
-a:hover {
-  color: $color-link-hover;
-}
+    h4 {
+      font-size: $size-regular + .6rem;
+    }
 
-.card {
-  background-color: #fafafa;
+    h5 {
+      font-size: $size-regular + .4rem;
+    }
+
+    h6 {
+      font-size: $size-regular + .2rem;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+      }
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: $width-max-img;
+    }
+
+    hr {
+      border: none;
+      border-bottom: .2rem solid $color-gray-deep;
+    }
+
+    a {
+      &:link, &:visited {
+        color: $ink;
+      }
+      &:hover {
+        color: $active;
+      }
+    }
+
+    // customized classes
+    @media screen and (min-width: $width-break-point) {
+      .container {
+        padding: 0 3rem;
+      }
+    }
+
+    @media screen and (max-width: $width-break-point) {
+      .container {
+        padding: 0 2rem;
+      }
+    }
+
+    .container {
+      max-width: $width-max-container;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+
+    .col {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1
+    }
+
+    .full-screen {
+      width: 100%;
+      min-height: 100vh;
+    }
+
+    .all-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      &-left {
+        text-align: left;
+      }
+      &-right {
+        text-align: right;
+      }
+      &-center {
+        text-align: center;
+      }
+    }
+
+  }
 }

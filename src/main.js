@@ -4,9 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'normalize.css'
-// import 'wingcss'
-import './styles/wing.min.css'
+import './styles/_variables.scss'
 import './styles/frame.scss'
+import './styles/preset.scss'
 
 Vue.config.productionTip = false
 

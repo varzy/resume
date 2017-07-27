@@ -1,6 +1,40 @@
-$color-dark: #454d5d !default;
-$color-ink: #202020 !default;
-$color-link: #797979 !default;
-$color-link-hover: #4d4a4a !default;
+// ============================
+// Color
+// ============================
 
-$title-font-weight: 200 !default;
+// main color
+$color-white: #fefefe !default;
+$color-black: #333 !default;
+$color-gray: #f5f5f5 !default;
+
+// vice color
+$color-gray-light: #f9f9f9 !default;
+$color-gray-deep: #eaeaea !default;
+
+// decorative color
+$color-tomato-red: #b7472a !default;
+
+// elements color
+$ink: $color-black !default;
+$meta: #828282 !default;
+$active: $color-tomato-red !default;
+
+// ============================
+// Font Size
+// ============================
+
+$size-regular: 1.4rem !default;
+$size-small: $size-regular - .2rem !default;
+$size-small-x: $size-regular - .4rem !default;
+$size-small-xx: $size-regular - .6rem !default;
+$size-large: $size-regular + .2rem !default;
+$size-large-x: $size-regular + .4rem !default;
+$size-large-xx: $size-regular + .6rem !default;
+
+// ============================
+// width, height
+// ============================
+
+$width-max-container: 72rem !default;
+$width-max-img: 100% !default;
+$width-break-point: 46rem !default;
