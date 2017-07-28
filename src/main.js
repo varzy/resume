@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'normalize.css'
-import 'wingcss'
+import './styles/wing.css'
 import './styles/preset.scss'
 
 import words from './lang/cn.json'

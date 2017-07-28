@@ -10,6 +10,18 @@
 
 
 <style scoped lang="scss">
+  @media screen and (min-width: 46rem) {
+    .avatar{
+      width: 20rem;
+    }
+  }
+
+  @media screen and (max-width: 46rem) {
+    .avatar{
+      width: 16rem;
+    }
+  }
+
   header {
     display: flex;
     justify-content: center;
@@ -19,7 +31,6 @@
       -moz-border-radius: 50%;
       border-radius: 50%;
       border: .5rem solid #fff;
-      width: 20rem;
     }
   }
 </style>

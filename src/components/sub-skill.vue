@@ -2,7 +2,7 @@
 
   <section class="container">
     <h2>SKILL</h2>
-    <div>
+    <div class="content">
       <div v-for="skill in skills">
         <div class="progress">
           <div class="inner"
@@ -21,6 +21,7 @@
 
 <style scoped lang="scss">
   .progress {
+    font-family: 'Lora', serif;
     width: 100%;
     height: 3.2rem;
     background-color: #e1e1e1;
@@ -48,7 +49,7 @@
 
 
 <script>
-  export default{
+  export default {
     name: 'SubSkill',
     data () {
       return {

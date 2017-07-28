@@ -17,6 +17,7 @@ $color-tomato-red: #b7472a !default;
 // elements color
 $ink: $color-black !default;
 $meta: #828282 !default;
+$link: #666 !default;
 $active: $color-tomato-red !default;
 
 // ============================
@@ -35,6 +36,6 @@ $size-large-xx: $size-regular + .6rem !default;
 // width, height
 // ============================
 
-$width-max-container: 68rem !default;
+$width-max-container: 66rem !default;
 $width-max-img: 100% !default;
 $width-break-point: 46rem !default;

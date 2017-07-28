@@ -1,82 +1,90 @@
 {
-  "header": {
-    "myName": "赵 越",
-    "simpleIntro": "A geeker, a virgo, a coder."
+  "pageHeader": {
+    "title": "赵 越",
+    "intro": "Just a Coder."
   },
-  "main": {
-    "info": {
-    },
-    "skill": [
+  "subInfo": [
+    [
       {
-        "skillName": "PHP",
-        "progressprogressWidth": "90",
-        "words": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "1",
-          "2",
-          "3",
-          "4",
-          "1",
-          "2",
-          "3",
-          "4",
-          "能够熟练使用依赖管理工具 composer",
-          "掌握 memcache 等技术，能够对程序运行的效率进行优化"
-        ]
+        "key": "姓 名",
+        "val": "赵 越"
       },
       {
-        "skillName": "HTML & CSS",
-        "progressWidth": "80",
-        "words": [
-          "熟练掌握 HTML 和 CSS，能够布局较为复杂的静态页面",
-          "掌握 SCSS 语法，并能将其与 Webpack 等工具进行结合开发",
-          "了解现代前端开发模式，能够熟练使用 npm / yarn 等依赖管理工具",
-          "掌握多种前端框架，如 Bootstrap, Amaze UI, Element 等"
-        ]
+        "key": "毕业院校",
+        "val": "河南师范大学"
       },
       {
-        "skillName": "Javascript",
-        "progressWidth": "70",
-        "words": [
-          "了解 JS 运行机制",
-          "熟悉 ES6 语法，并了解将 ES6 语法转为强兼容性 JS 的方案",
-          "能够熟练使用多种 JS 框架，如 jQuery, Vue.js。能够使用 Vue.js 构建 SPA",
-          "熟悉 Webpack, Gulp 等前端模块化处理工具，能够有效改进前端工作流"
-        ]
+        "key": "专 业",
+        "val": "计算机科学与技术"
       },
       {
-        "skillName": "Git & SVN",
-        "progressWidth": "86",
-        "words": [
-          "日常使用 Git 作为版本控制工具，掌握绝大部分常用 Git 指令，对 Git 的工作模式有深刻理解",
-          "了解 Git Flow 工作模式",
-          "能够使用 SVN 作为版本控制工具"
-        ]
+        "key": "期望职位",
+        "val": "全职 phper"
       },
       {
-        "skillName": "Linux",
-        "progressWidth": "66",
-        "words": [
-          "熟悉常用 Linux 命令",
-          "了解多种常用的 Linux 发行版，具有服务器部署经验",
-          "能够使用 SVN 作为版本控制工具"
-        ]
+        "key": "期望薪资",
+        "val": "10K"
+      }
+    ],
+    [
+      {
+        "key": "Email",
+        "val": "<a href='mailto:i@zyis.me'>i@zyis.me</a>"
       },
       {
-        "skillName": "Others",
-        "progressWidth": "50",
-        "words": [
-          "习惯使用 VSCode 和 PHPStorm 进行项目开发",
-          "习惯使用英文操作系统和英文软件，能够无障碍读写英文文章",
-          "掌握“穿墙”技能，能够无障碍使用 Google, Github, Stack Overflow 等技术网站",
-          "熟悉 Web 安全方面知识，了解 SQL 注入、XSS 攻击等，并能够对其进行防范"
-        ]
+        "key": "Phone",
+        "val": "+86 155 65252 2838"
+      },
+      {
+        "key":"Wechat",
+        "val":"zxyy63630"
+      },
+      {
+        "key":"Homepage",
+        "val":"<a href='http://varzy.me' target='_blank'>varzy.me</a>"
+      },
+      {
+        "key":"Github",
+        "val":"<a href='https://github.com/varzy' target='_blank'>github.com/varzy</a>"
       }
     ]
-  },
-  "footer": {
-  }
+  ],
+  "subSkill": [
+    {
+      "title": "PHP",
+      "mastery": 90,
+      "intro": [
+        "掌握 PHP 基本语法，深入理解 OOP 编程思想，并了解 PHP7 的新语法和新特性",
+        "掌握 SQL 语法，能够熟练操作 MySQL 等数据库，并且能对数据的操作进行性能优化"
+      ]
+    },
+    {
+      "title": "HTML & CSS",
+      "mastery": 80,
+      "intro": [
+        "熟练掌握 HTML 和 CSS，能够布局较为复杂的静态页面",
+        "掌握 SCSS 语法，并能将其与 Webpack 等工具进行结合开发"
+      ]
+    }
+  ],
+  "subProject": [
+    {
+      "title": "finch",
+      "intro": "Perhaps the easiest, the lightest, and the most readable php framework.",
+      "linkName": "Github",
+      "linkAddress": "https://github.com/varzy"
+    },
+    {
+      "title": "blog",
+      "intro": "My personal blog.",
+      "linkName": "Github",
+      "linkAddress": "https://github.com/varzy"
+    }
+  ],
+  "subSelffeel": [
+    "A Curiosity Geeker. 充满好奇心的极客。乐于接受新知识和新技术，喜欢折腾各种软件。善于使用各种能提升工作幸福感的生产力工具。",
+    "A romantic virgo. 喜欢整洁的桌面，优雅的代码和喜欢一目了然的注释。重度代码格式化控。写前端时容不得一个像素的偏差，写后端时力求“最优解”。信奉 Tim Peters 的代码哲学。",
+    "A true coder. 热爱编程，善于思考，有较强的自学能力。遇到麻烦时会第一时间寻找解决方案而非抱怨。喜欢解决问题后获得的成就感。懂得抬头看天空，更懂得低头敲键盘。",
+    "A nice guy. 正版主义者，开源主义者。性格开朗，易相处，面对姑娘时也许会羞涩。执行力高，不喜欢拖拖拉拉。"
+  ]
 }

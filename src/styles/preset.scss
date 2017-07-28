@@ -1,5 +1,5 @@
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=Bellefair');
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Lora');
 
 html {
   body {
@@ -51,22 +51,16 @@ html {
 
     a {
       &:link, &:visited {
-        color: $ink;
+        color: #333;
         text-decoration: none;
       }
       &:hover {
         color: $active;
-        text-decoration: underline;
+        //text-decoration: underline;
       }
     }
 
     // customized classes
-    @media screen and (min-width: $width-break-point) {
-      .container {
-        padding: 0 3rem;
-      }
-    }
-
     @media screen and (max-width: $width-break-point) {
       .container {
         width: 86%;
@@ -84,76 +78,19 @@ html {
       align-items: center;
     }
 
-    // wing cards
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      overflow: hidden;
-      margin-bottom: 2rem
-    }
-
-    @media (max-width: 675px) {
-      .cards > .card {
-        flex: auto;
-      }
-    }
-
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      overflow: hidden;
-      margin-bottom: 2rem
-    }
-
-    @media (max-width: 675px) {
-      .cards > .card {
-        flex: auto;
-      }
-    }
-
+    // wing
     .card {
-      flex-direction: column;
-      overflow: hidden;
-      flex: 0 1 calc(50% - 0.5rem);
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      margin-bottom: 2rem;
       background-color: #fdfdfd;
-    }
-
-    .card-header {
-      font-weight: 200;
-      font-size: 2.8rem;
-      margin: 0;
-      padding: 2rem 3rem 1rem;
-    }
-
-    .card-body {
-      padding: 0 3rem 2rem 3rem;
-      min-height: 100px;
-    }
-
-    .card-footer {
-      display: flex;
-      align-items: stretch;
-      border-top: 1px solid #dbdbdb;
-      flex: 1;
-      padding: 1rem;
-    }
-
-    .card-footer .card-footer-item {
-      display: flex;
-      flex-basis: 0;
-      flex-grow: 1;
-      flex-shrink: 0;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-    }
-
-    .card-footer-item:not(:first-child) {
-      border-left: 1px solid #dbdbdb;
+      &-header {
+        font-weight: 200;
+        font-size: 2.8rem;
+      }
+      &-body {
+        min-height: 8.4rem;
+      }
+      &-footer {
+        padding: 1rem;
+      }
     }
 
   }
