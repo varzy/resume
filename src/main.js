@@ -4,13 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'normalize.css'
-import './styles/_variables.scss'
-import './styles/frame.scss'
+import 'wingcss'
 import './styles/preset.scss'
 
-import global_ from './components/global.vue'
+import words from './lang/cn.json'
 
-Vue.prototype.GLOBAL = global_
+window.words = words
 
 Vue.config.productionTip = false
 

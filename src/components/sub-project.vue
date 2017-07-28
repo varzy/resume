@@ -1,12 +1,15 @@
 <template>
   <section class="container">
-    <h1>PROJECT</h1>
+    <h2>PROJECT</h2>
     <div class="cards">
       <div class="card" v-for="project in projects">
-        <h5 class="card-header">{{ project.name }}</h5>
+        <h5 class="card-header">{{ project.title }}</h5>
         <p class="card-body">{{ project.intro }}</p>
-        <div
-          class="card-footer center text-center"><p>{{ project.linkName }}</p>
+        <div class="card-footer center text-center">
+          <a :href="getLinkAddress(project.linkAddress)"
+             target="_blank">
+            {{ project.linkName }}
+          </a>
         </div>
       </div>
     </div>
@@ -15,17 +18,16 @@
 
 
 <script>
-  export default{
+  export default {
     name: 'SubProject',
     data () {
       return {
-        projects: this.getProjects()
+        projects: window.words.subProject
       }
     },
     methods: {
-      getProjects () {
-        let lang = require('../lang/cn_old.json')
-        return lang.main.projects
+      getLinkAddress (linkAddress) {
+        return linkAddress
       }
     }
   }

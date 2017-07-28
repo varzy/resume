@@ -22,6 +22,12 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 0,
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    "no-unused-vars": [0, {
+      // 允许声明未使用变量
+      "vars": "local",
+      // 参数不检查
+      "args": "none"
+    }],
   }
 }

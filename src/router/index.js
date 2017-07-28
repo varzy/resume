@@ -5,6 +5,8 @@ import Resume from '@/components/resume'
 Vue.use(Router)
 
 export default new Router({
+  // hashbang: false,
+  // history: true,
   routes: [
     {
       path: '/',

@@ -2,8 +2,8 @@
   <header class="full-screen container">
     <div class="text-center">
       <img :src="myAvatar" alt="my avatar" class="avatar">
-      <h1>{{ headerInfo.myName }}</h1>
-      <em>{{ headerInfo.simpleIntro }}</em>
+      <h1>{{ headerInfo.title }}</h1>
+      <em>{{ headerInfo.intro }}</em>
     </div>
   </header>
 </template>
@@ -27,7 +27,7 @@
 
 <script>
   export default{
-    name: 'page-header',
+    name: 'PageHeader',
     data () {
       return {
         myAvatar: require('../assets/my_avatar.png'),
@@ -36,9 +36,7 @@
     },
     methods: {
       getHeaderInfo () {
-        // ! TODO: fix the require method
-        let lang = require('../lang/cn_old.json')
-        return lang.pageHeader
+        return window.words.pageHeader
       }
     }
   }

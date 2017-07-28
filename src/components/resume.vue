@@ -30,11 +30,6 @@
       'sub-skill': SubSkill,
       'sub-selffeel': SubSelffeel,
       'page-footer': pageFooter
-    },
-    data () {
-      return {
-        words: require('../lang/cn_old.json')
-      }
     }
   }
 </script>

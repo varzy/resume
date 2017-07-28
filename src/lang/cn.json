@@ -16,6 +16,7 @@
   "subSkill": [
     {
       "title": "PHP",
+      "mastery": 90,
       "intro": [
         "掌握 PHP 基本语法，深入理解 OOP 编程思想，并了解 PHP7 的新语法和新特性",
         "掌握 SQL 语法，能够熟练操作 MySQL 等数据库，并且能对数据的操作进行性能优化"
@@ -23,6 +24,7 @@
     },
     {
       "title": "HTML & CSS",
+      "mastery": 80,
       "intro": [
         "熟练掌握 HTML 和 CSS，能够布局较为复杂的静态页面",
         "掌握 SCSS 语法，并能将其与 Webpack 等工具进行结合开发"
@@ -32,7 +34,9 @@
   "subProject": [
     {
       "title": "finch",
-      "intro": "Perhaps the easiest, the lightest, and the most readable php framework."
+      "intro": "Perhaps the easiest, the lightest, and the most readable php framework.",
+      "linkName": "Github",
+      "linkAddress": "https://github.com/varzy"
     },
     {
       "title": "blog",

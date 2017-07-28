@@ -1,17 +1,17 @@
 <template>
 
   <section class="container">
-    <h1>SKILL</h1>
+    <h2>SKILL</h2>
     <div>
       <div v-for="skill in skills">
         <div class="progress">
           <div class="inner"
-               :style="{ width: skill.progressWidth + '%' }">
-            <em class="skill-name">{{ skill.skillName }}</em>
+               :style="{ width: skill.mastery + '%' }">
+            <em class="skill-name">{{ skill.title }}</em>
           </div>
         </div>
         <ul class="words">
-          <li v-for="word in skill.words">{{ word }}</li>
+          <li v-for="word in skill.intro">{{ word }}</li>
         </ul>
       </div>
     </div>
@@ -49,16 +49,10 @@
 
 <script>
   export default{
-    name: 'SubProject',
+    name: 'SubSkill',
     data () {
       return {
-        skills: this.getSkills()
-      }
-    },
-    methods: {
-      getSkills () {
-        let lang = require('../lang/cn_old.json')
-        return lang.subSkill
+        skills: window.words.subSkill
       }
     }
   }
