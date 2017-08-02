@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!--<nav-bar></nav-bar>-->
+    <!-- <nav-bar></nav-bar> -->
     <page-header></page-header>
     <sub-info></sub-info>
     <sub-skill></sub-skill>

@@ -19,7 +19,7 @@
       },
       {
         "key": "期望职位",
-        "val": "前端 | phper"
+        "val": "前端 | phper | 全栈"
       },
       {
         "key": "期望薪资",
@@ -33,7 +33,7 @@
       },
       {
         "key": "Phone",
-        "val": "<a href='tel:i@zyis.me'>+86 155 65252 2838</a>"
+        "val": "<a href='tel:15565252838'>+86 155 6525 2838</a>"
       },
       {
         "key": "Wechat",
@@ -51,18 +51,18 @@
   ],
   "subSkill": [
     {
-      "title": "PHP & MySQL",
+      "title": "Back End",
       "mastery": 90,
       "intro": [
         "掌握 PHP 基本语法，深入理解 OOP 编程思想",
         "掌握 SQL 语法，能够熟练操作 MySQL 等关系型数据库",
         "能够使用 ThinkPHP3, Laravel 等框架开发项目",
         "能够熟练使用依赖管理工具 composer",
-        "可以使用 Redis 实现性能优化"
+        "能够使用 Redis 等 nosql 数据库"
       ]
     },
     {
-      "title": "HTML & CSS & ECMAScript",
+      "title": "Front End",
       "mastery": 80,
       "intro": [
         "熟练掌握 HTML, CSS，以及 Sass 等预处理器，能够布局较为复杂的静态页面",
@@ -91,19 +91,19 @@
   "subProject": [
     {
       "title": "finch",
-      "intro": "也许是最易用，最轻量，可读性最高的 php 框架。",
+      "intro": "也许是最易用，最轻量，可读性最高的 php 框架，基于 MVC 思想进行设计。",
       "linkName": "Jump to Github",
       "linkAddress": "https://github.com/varzy/finch"
     },
     {
       "title": "hexo-theme-slience",
-      "intro": "一个寂静的 hexo 主题",
+      "intro": "一个寂静的 hexo 主题，主要使用了 ejs 和 sass 技术。",
       "linkName": "View Demo",
       "linkAddress": "http://varzy.me/blog"
     },
     {
       "title": "GitComb",
-      "intro": "一些 Git 知识梳理。",
+      "intro": "一些自用的 Git 知识梳理。",
       "linkName": "Read gitbook",
       "linkAddress": "https://varzy.gitbooks.io/gitcomb/"
     },
@@ -115,7 +115,7 @@
     }
   ],
   "subSelffeel": [
-    "A Curiosity Geeker。乐于接受新知识和新技术，喜欢折腾各种软件和硬件。善于使用各种能提升工作幸福感的生产力工具。",
+    "A curiosity geek。乐于接受新知识和新技术，喜欢折腾各种软件和硬件。善于使用各种能提升工作幸福感的生产力工具。",
     "A romantic virgo。 喜欢整洁的桌面，优雅的代码和一目了然的注释。重度代码格式化控。写前端时容不得一个像素的偏差，写后端时力求“最优解”。信奉 Tim Peters 的代码哲学。",
     "A true coder。 热爱编程，善于思考，有较强的自学能力。遇到麻烦时会第一时间寻找解决方案而非抱怨。喜欢解决问题后获得的成就感。懂得抬头看天空，更懂得低头敲键盘。",
     "A nice guy。 正版主义者，开源主义者。性格开朗，易相处，面对姑娘时也许会羞涩。执行力高，不喜欢拖拖拉拉。"

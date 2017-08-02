@@ -1,12 +1,12 @@
 <template>
   <nav class="navbar">
-    <a href="javascript:void(0)" class="nav-item">中</a>
+    <!-- <a href="javascript:void(0)" class="nav-item">中</a>
     <span>/</span>
     <a href="javascript:void(0)" class="nav-item">ENG</a>
-    <span class="hide-phone hide-tablet">/</span>
-    <a href="" class="nav-item hide-phone hide-tablet">Word</a>
-    <span class="hide-phone hide-tablet">/</span>
-    <a href="" class="nav-item hide-phone hide-tablet">PDF</a>
+    <span class="hide-phone hide-tablet">/</span> -->
+    <a href="" class="nav-item">Word</a>
+    <span class="hide-phone">/</span>
+    <a href="" class="nav-item">PDF</a>
   </nav>
 </template>
 

@@ -41,7 +41,7 @@
     name: 'PageHeader',
     data () {
       return {
-        myAvatar: require('../assets/my_avatar.png'),
+        myAvatar: require('../assets/avatar_true.png'),
         headerInfo: this.getHeaderInfo()
       }
     },
