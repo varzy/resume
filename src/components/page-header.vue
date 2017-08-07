@@ -23,6 +23,8 @@
   }
 
   header {
+    font-weight: 200;
+    font-family: 'Bellefair', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +33,11 @@
       -moz-border-radius: 50%;
       border-radius: 50%;
       border: .5rem solid #fff;
+    }
+    em {
+      font-size: 2rem;
+      word-spacing: .4rem;
+      letter-spacing: .1rem;
     }
   }
 </style>

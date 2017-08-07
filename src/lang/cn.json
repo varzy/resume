@@ -19,11 +19,11 @@
       },
       {
         "key": "期望职位",
-        "val": "前端 | phper | 全栈"
+        "val": "phper | 前端"
       },
       {
         "key": "期望薪资",
-        "val": "10K"
+        "val": "8K"
       }
     ],
     [
@@ -67,7 +67,7 @@
       "intro": [
         "熟练掌握 HTML, CSS，以及 Sass 等预处理器，能够布局较为复杂的静态页面",
         "了解现代前端开发模式，熟悉 ES6 语法，并能够使用 npm, Webpack, Babel, EsLint 等工具进行协同开发",
-        "能够熟练使用 jQuery 和 Vue.js，能够使用 Vue.js 构建 SPA"
+        "能够熟练使用 jQuery 和 Vue.js，能够使用 Vue.js 构建简单的 SPA"
       ]
     },
     {
@@ -84,7 +84,7 @@
       "intro": [
         "掌握“穿墙”技能，能够无障碍使用 Google, Github, Stack Overflow 等技术网站",
         "习惯使用英文操作系统和英文软件，能够无障碍读写英文文章",
-        "能够熟练使用 Vagrant"
+        "能够使用 Vagrant"
       ]
     }
   ],
@@ -109,7 +109,7 @@
     },
     {
       "title": "resume",
-      "intro": "个人简历脚手架。可以通过修改 json 文件自动生成一个漂亮的简历页面。",
+      "intro": "个人简历脚手架，可以通过仅修改 json 文件生成一个漂亮的简历页面。",
       "linkName": "See the Repo",
       "linkAddress": "https://github.com/varzy/resume"
     }
