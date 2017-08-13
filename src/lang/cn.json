@@ -18,12 +18,8 @@
         "val": "计算机科学与技术"
       },
       {
-        "key": "期望职位",
-        "val": "phper | 前端"
-      },
-      {
         "key": "期望薪资",
-        "val": "8K"
+        "val": "面议"
       }
     ],
     [
@@ -34,10 +30,6 @@
       {
         "key": "Phone",
         "val": "<a href='tel:15565252838'>+86 155 6525 2838</a>"
-      },
-      {
-        "key": "Wechat",
-        "val": "zxyy63630"
       },
       {
         "key": "Homepage",
@@ -54,11 +46,11 @@
       "title": "Back End",
       "mastery": 90,
       "intro": [
-        "掌握 PHP 基本语法，深入理解 OOP 编程思想",
+        "掌握 PHP 基本语法，理解 OOP 编程思想",
         "掌握 SQL 语法，能够熟练操作 MySQL 等关系型数据库",
-        "能够使用 ThinkPHP3, Laravel 等框架开发项目",
-        "能够熟练使用依赖管理工具 composer",
-        "能够使用 Redis 等 nosql 数据库"
+        "能够使用 Redis, MongoDB 等 nosql 数据库",
+        "能够使用 ThinkPHP, Laravel 等框架开发项目",
+        "能够熟练使用 composer"
       ]
     },
     {
@@ -66,7 +58,7 @@
       "mastery": 80,
       "intro": [
         "熟练掌握 HTML, CSS，以及 Sass 等预处理器，能够布局较为复杂的静态页面",
-        "了解现代前端开发模式，熟悉 ES6 语法，并能够使用 npm, Webpack, Babel, EsLint 等工具进行协同开发",
+        "熟悉现代前端开发模式，熟悉 ES6 语法，并能够使用 npm, Webpack, Babel 等工具进行协同开发",
         "能够熟练使用 jQuery 和 Vue.js，能够使用 Vue.js 构建简单的 SPA"
       ]
     },
@@ -83,8 +75,7 @@
       "mastery": 75,
       "intro": [
         "掌握“穿墙”技能，能够无障碍使用 Google, Github, Stack Overflow 等技术网站",
-        "习惯使用英文操作系统和英文软件，能够无障碍读写英文文章",
-        "能够使用 Vagrant"
+        "习惯使用英文操作系统和软件，能够读写英文文章"
       ]
     }
   ],
@@ -101,17 +92,17 @@
       "linkName": "View Demo",
       "linkAddress": "http://varzy.me/blog"
     },
+        {
+      "title": "resume",
+      "intro": "个人简历脚手架，可以通过仅修改 json 文件生成一个漂亮的简历页面。",
+      "linkName": "See the Repo",
+      "linkAddress": "https://github.com/varzy/resume"
+    },
     {
       "title": "GitComb",
       "intro": "一些自用的 Git 知识梳理。",
       "linkName": "Read gitbook",
       "linkAddress": "https://varzy.gitbooks.io/gitcomb/"
-    },
-    {
-      "title": "resume",
-      "intro": "个人简历脚手架，可以通过仅修改 json 文件生成一个漂亮的简历页面。",
-      "linkName": "See the Repo",
-      "linkAddress": "https://github.com/varzy/resume"
     }
   ],
   "subSelffeel": [
