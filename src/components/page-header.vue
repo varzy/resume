@@ -1,7 +1,7 @@
 <template>
   <header class="full-screen container">
     <div class="text-center">
-      <img :src="myAvatar" alt="my avatar" class="avatar">
+      <img src="../assets/avatar_fake.png" alt="my avatar" class="avatar">
       <h1>{{ headerInfo.title }}</h1>
       <em>{{ headerInfo.intro }}</em>
     </div>
@@ -48,7 +48,7 @@
     name: 'PageHeader',
     data () {
       return {
-        myAvatar: require('../assets/avatar_true.png'),
+        // myAvatar: require('../assets/avatar_true.png'),
         headerInfo: this.getHeaderInfo()
       }
     },
