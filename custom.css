@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 16px !important;
+  }
+}
+
+body {
+  background-color: #f9f9f9;
+  padding-bottom: 12px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.footer {
+  max-width: 46em;
+  margin: 0 auto;
+  padding: 1.57143em 3.14286em;
+  text-align: center;
+}
+
+.footer-links {
+  padding-top: 24px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-links-item {
+  margin-left: 6px;
+  margin-right: 6px;
+}
