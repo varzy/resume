@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:varzy/resume.git",
+  "author": "zy <varzy@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/pages/**/*.html",
+    "build": "parcel build ./src/pages/**/*.html --public-url ./resume/",
+    "lint": "prettier --write ./src/**/*.{html,js,css,sass,scss,json}"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "prettier": "^2.0.2",
+    "sass": "^1.26.3"
+  }
+}

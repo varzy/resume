@@ -1,3 +1,1 @@
-# Resume
-
-My resume.
+# RESUME
