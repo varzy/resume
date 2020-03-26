@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 html {
   body {
     font-family: sans-serif;
