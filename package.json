@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel ./src/pages/**/*.html",
-    "build": "parcel build ./src/pages/**/*.html --public-url ./resume/",
+    "build": "parcel build ./src/pages/**/*.html --public-url /resume/",
     "lint": "prettier --write ./src/**/*.{html,js,css,sass,scss,json}"
   },
   "dependencies": {
