@@ -1,0 +1,11 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:varzy/resume.git",
+  "author": "zy <varzy@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --write ./**/*.{html,js,css}"
+  }
+}
