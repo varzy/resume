@@ -6,6 +6,6 @@
   "author": "zy <varzy@live.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "prettier --write ./**/*.{html,js,css}"
+    "lint": "prettier --write ./**/*.{js,css}"
   }
 }
