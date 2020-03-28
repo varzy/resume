@@ -1,0 +1,53 @@
+
+
+body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #e0e0e0;
+}
+
+#write {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+.pin {
+  display: block;
+  position: fixed;
+  width: 96px;
+  text-align: right;
+  padding: 10px 10px 10px 0;
+  font-size: 16px;
+  background-color: #2d2d2d;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 6px 0 0 6px;
+  transition: all 0.3s ease-out;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.pin:hover {
+  background-color: #5a5a5a;
+}
+
+.pin.pdf_downloader {
+  top: 200px;
+  right: 0;
+}
+
+.pin.docx_downloader {
+  top: 254px;
+  right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .pin {
+    display: none;
+  }
+}
