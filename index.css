@@ -12,6 +12,7 @@ body {
 .pin {
   display: block;
   position: fixed;
+  right: 0;
   width: 96px;
   text-align: right;
   padding: 10px 10px 10px 0;
@@ -27,16 +28,19 @@ body {
 
 .pin:hover {
   background-color: #5a5a5a;
+  padding-right: 18px;
 }
 
 .pin.pdf_downloader {
   top: 200px;
-  right: 0;
+}
+
+.pin.md_downloader {
+  top: 255px;
 }
 
 .pin.docx_downloader {
-  top: 254px;
-  right: 0;
+  top: 310px;
 }
 
 @media screen and (max-width: 500px) {
