@@ -71,7 +71,7 @@
 
 **日世冰淇淋机的管理后台及接口**
 
-> 管理后台使用 Vue CLI + ElementUI + Typescript 搭建。通过对 Vue 路由的加工实现了动态的菜单管理。
+> 管理后台使用 Vue CLI + ElementUI + Typescript 搭建。通过对 Vue 路由的加工实现了导航菜单的 RBAC 效果。
 >
 > 后端接口使用 Lumen 开发。项目中我负责了数据表设计，关联模型的建立，RBAC 权限管理以及页面相关的接口开发。
 
