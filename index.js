@@ -1,5 +1,6 @@
 window.onload = function () {
   setFavicon();
+  setTitle();
 };
 
 function setFavicon() {
@@ -10,4 +11,8 @@ function setFavicon() {
   link.rel = "shortcut icon";
   link.href = "./favicon.png";
   document.getElementsByTagName("head")[0].appendChild(link);
+}
+
+function setTitle() {
+  document.title = '赵越的简历';
 }
