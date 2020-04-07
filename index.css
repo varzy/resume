@@ -43,13 +43,15 @@ body {
   top: 310px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
+  .pin {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
   body {
     padding-top: 0;
     padding-bottom: 0;
-  }
-
-  .pin {
-    display: none;
   }
 }
