@@ -49,7 +49,7 @@ body {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   body {
     padding-top: 0;
     padding-bottom: 0;
