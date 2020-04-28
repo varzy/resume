@@ -6,7 +6,7 @@
   "author": "zy <varzy@live.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "prettier --write ./**/*.{md,js,css}",
+    "lint": "prettier --write --single-quote ./**/*.{md,js,css}",
     "deploy": "git add . && git commit -m \"update\" && git push"
   }
 }

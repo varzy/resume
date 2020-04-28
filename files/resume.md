@@ -4,7 +4,7 @@
 
 - **我**: 赵越 | 男 | 1996.03
 - **教育水平**: 本科 | 河南师范大学 | 计算机科学与技术专业 | 2017 年毕业
-- **工作情况**: base 北京 | 薪资面议
+- **工作情况**: Base 北京 | 薪资面议
 - **手机 & 微信**: +86 155 6525 2838
 - **Email**: i@yuezhao.me
 - **个人主页**: [https://varzy.me](http://varzy.me/)
@@ -15,7 +15,7 @@
 ### 前端
 
 - 熟练使用 HTML(5) + CSS(3)，掌握盒模型、文档流、弹性布局等知识，能够实现复杂的页面布局
-- 熟悉 Javascript 基本特性，了解闭包，原型链，事件循环等知识
+- 熟悉 Javascript 基本特性，了解原型链，事件循环等知识
 - 熟练使用 ES6+ 语法，并有 Typescript 使用经验
 - 拥有组件化开发思想，擅长使用 Vue 及 Vue 相关生态 (Vue Router, Vuex, Vue Cli, Nuxt...)，除此之外还能够简单使用 React, JSX 等技术
 - 熟练使用 Sass 等 CSS 预处理器协助组织样式
@@ -39,7 +39,7 @@
 
 ### 2019.03 - 2020.04 紫光云技术有限公司
 
-担任数据中台团队(天津)的前端负责人，主要负责架构设计、技术调研、公共组件封装、组内人员安排以及重难点攻克等工作。在职期间主要使用 Vue 相关生态构建 PC 端后台项目，以及使用 Nuxt 搭建门户网站。
+担任数据中台团队(天津)的前端负责人，主要负责架构设计、技术调研、公共组件封装、组内成员工作安排以及重难点攻克等工作。在职期间主要使用 Vue 相关生态构建 PC 端后台项目，以及使用 Nuxt 搭建门户网站。
 
 ### 2018.05 - 2019.03 北京古点科技有限公司
 
@@ -51,7 +51,7 @@
 
 ## 项目经验
 
-**数据管理 DMS** ([线上地址](https://www.unicloud.com/product/dms))    `紫光云` `Vue` `PC` `Database`
+**数据管理 DMS** ([线上地址](https://www.unicloud.com/product/dms)) `紫光云` `Vue` `PC` `Database`
 
 > 一款 Web 端的数据库管理软件，支持 MySQL, Oracle, MongoDB, Redis 等主流数据库的在线管理。前端使用 Vue CLI + ElementUI 搭建。
 >
@@ -59,42 +59,42 @@
 >
 > 入职后曾组织对项目进行了渐进式的优化，大幅提高了代码复用率，代码量减少了约 40%；通过编写更合理的路由守卫，保证每种数据库之间互不干扰，提高了页面性能和稳定性。
 
-**模型设计器**    `紫光云` `Vue` `PC` `拖拽` `OOC`
+**模型设计器** `紫光云` `Vue` `PC` `拖拽` `OOC`
 
 > 一款通过鼠标拖拽即可映射数据表的字段和关系，实现不写 SQL 也能自由查询表数据的工具。前端使用 Vue CLI + ElementUI 搭建。
 >
 > 项目使用了 HTML 原生的拖拽 API，配合 ElTree 组件同时实现了无限级懒加载和动态更新效果。由于需求较为复杂，仅使用 Vue 组件并不足以保证灵活、复用和可扩展，因此项目还引入了 Model 层，使用了大量的面向对象设计，将模型、分组、树节点对象封装为独立的 Class，并且约定每个对象都必须通过 Class 实例化得到，以此保证数据结构的稳定。
 
-**日志服务平台** ([线上地址](https://www.unicloud.com/product/logservice))    `紫光云` `Vue` `PC` `Kibana` `ELK`
+**日志服务平台** ([线上地址](https://www.unicloud.com/product/logservice)) `紫光云` `Vue` `PC` `Kibana` `ELK`
 
 > 能够接入各种软件产生的日志，进行抓取、检索和分析。前端使用 Vue CLI + ElementUI + Kibana 搭建。
 >
 > 前端的重难点在于需要通过 iframe 内嵌一个定制化的 Kibana 服务。由于资料甚少，花了大量的时间在前期调研和阅读源码上，最终在 Linux 系统下完成了对 Kibana 开源版的定制开发和编译，并且编写了项目的整体 Nginx 配置，保证各个组件间能够正常通信。
 
-**dotcom space 微信小程序**    `古点` `微信小程序` `mpvue` `商城`
+**dotcom space 微信小程序** `古点` `微信小程序` `mpvue` `商城`
 
 > 一个商城类的微信小程序，使用 mpvue + Vuex 开发。小程序中的页面及组件均自行开发，未使用任何第三方样式库或组件库。
 >
 > 小程序涉及商品选购、购物车、商品优惠、库存、下单和 VIP 会员等功能。为了解决商品优惠、VIP 优惠、优惠券等功能对价格的影响，对 Vuex 中的各种数据流向进行了控制，兼顾了性能和可维护性；由于购物车模块曾遇到了性能瓶颈，因此着重对其进行了性能优化，旨在提高增删商品的速度，优化后实现了瞬间响应；多次优化下单模块，对下单时的十几种异常行为进行了针对性处理。
 
-**日世冰淇淋机的管理后台及接口**    `古点` `Vue` `Typescript` `RBAC` `Lumen` `PHP` `API`
+**日世冰淇淋机的管理后台及接口** `古点` `Vue` `Typescript` `RBAC` `Lumen` `PHP` `API`
 
-> 管理后台使用 Vue CLI + ElementUI + Typescript 搭建。结合 Typescript 中的 Interface、Enum 等机制，使用 TS 开发的鉴权、http 请求、路由守卫等模块均获得了更高的稳定性和可维护性。除此之外，项目还通过对 Vue 路由的加工实现了导航菜单的 RBAC 效果，保证不不同角色只能看到属于当前角色的菜单项。
+> 管理后台使用 Vue CLI + ElementUI + Typescript 搭建。结合 Typescript 中的 Interface、Enum 等机制，使用 TS 开发的鉴权、http 请求、路由守卫等模块均获得了更高的稳定性和可维护性。除此之外，项目还通过对 Vue 路由的加工实现了导航菜单的 RBAC 效果，保证不同角色只能看到属于自己的菜单项。
 >
 > 后端接口使用 Lumen 框架开发。除部分图表统计类的复杂接口外，我全量负责了其余部分的开发工作，如表结构设计，关联模型建立，RBAC 权限管理，Restful API 等。
 
-**红旗汽车 DMP 系统**    `精准沟通` `PC` `H5` `大屏` `ECharts`
+**红旗汽车 DMP 系统** `精准沟通` `PC` `H5` `大屏` `ECharts`
 
 > 本项目可细分为 PC, H5 和大屏三部分，均基于 Vue CLI 2 进行开发。我部分负责了 PC 端的开发，全量负责 H5 和大屏端的开发。
 >
 > 三端均涉及大量的 ECharts 图表，因此封装了一个可通过链式操作快速生成 Echarts 配置的工具。大屏端还对接了海康威视的视频监控系统，通过 Video.js 实现了 m3u8 视频流的直播播放。
 
-**开源项目**    `开源` `Github`
+**开源项目** `开源` `Github`
 
-* [vue-admin-scaffold](https://github.com/varzy/vue-admin-scaffold): 一款集合了各种可能是“最佳实践”的 Vue 管理后台脚手架。[预览地址](https://varzy.me/vue-admin-scaffold/)
-* [django-mix](https://github.com/varzy/django-mix): 基于 Django + Laravel-Mix 搭建的，非前后端分离的网站项目脚手架，提供一种更优雅得处理前端资源的思路。详见博客 [前后端不分离，也要优雅得写前端！](https://varzy.me/blog/2019/eleganter-site-fe/)
-* [fed](https://varzy.me/fed/): 我正在践行的，用于自我约束的前端编码规范
-* [hexo-theme-slience](https://github.com/varzy/hexo-theme-slience): 一款简约的 Hexo 博客主题
+- [vue-admin-scaffold](https://github.com/varzy/vue-admin-scaffold): 一款集合了各种可能是“最佳实践”的 Vue 管理后台脚手架。[预览地址](https://varzy.me/vue-admin-scaffold/)
+- [django-mix](https://github.com/varzy/django-mix): 基于 Django + Laravel-Mix 搭建的，非前后端分离的网站项目脚手架，提供一种更优雅得处理前端资源的思路。详见博客 [前后端不分离，也要优雅得写前端！](https://varzy.me/blog/2019/eleganter-site-fe/)
+- [fed](https://varzy.me/fed/): 我正在践行的，用于自我约束的前端编码规范
+- [hexo-theme-slience](https://github.com/varzy/hexo-theme-slience): 一款简约的 Hexo 博客主题
 
 ## 自我评价
 
