@@ -39,10 +39,6 @@ body {
   top: 260px;
 }
 
-.pin.docx_downloader {
-  top: 320px;
-}
-
 @media screen and (max-width: 768px) {
   .pin {
     display: none;
