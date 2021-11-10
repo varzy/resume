@@ -9,6 +9,20 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 }
 
+
+
+@media only screen and (min-width: 1400px) {
+  #write {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  #write {
+    max-width: 1024px;
+  }
+}
+
 .pin {
   display: block;
   position: fixed;
