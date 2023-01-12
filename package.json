@@ -7,6 +7,10 @@
   "license": "MIT",
   "scripts": {
     "lint": "prettier --write --single-quote ./**/*.{md,js,css}",
-    "deploy": "git add . && git commit -m \"update\" && git push"
+    "replace": "node replace.js",
+    "deploy": "npm run replace && git add . && git commit -m \"update\" && git push"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
   }
 }

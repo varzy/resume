@@ -4,12 +4,17 @@ body {
   background-color: #e0e0e0;
 }
 
+@media screen and (max-width: 425px) {
+  body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 #write {
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 }
-
-
 
 @media only screen and (min-width: 1400px) {
   #write {
@@ -56,12 +61,5 @@ body {
 @media screen and (max-width: 768px) {
   .pin {
     display: none;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  body {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 }
